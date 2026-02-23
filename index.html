@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negocio Electrónico - Trabajos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image:
+                radial-gradient(circle at 15% 50%, rgba(56, 189, 248, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(232, 121, 249, 0.15), transparent 25%);
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            padding: 50px 40px;
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            margin: 40px 0;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #38bdf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+
+        p.subtitle {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            margin-bottom: 50px;
+            font-weight: 300;
+        }
+
+        .cards {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 35px 25px;
+            width: 310px;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: rgba(56, 189, 248, 0.5);
+            box-shadow: 0 15px 35px -10px rgba(56, 189, 248, 0.3);
+        }
+
+        .card:hover::before {
+            opacity: 1;
+        }
+
+        .card.disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .card.disabled:hover {
+            transform: none;
+            border-color: rgba(255, 255, 255, 0.08);
+            box-shadow: none;
+        }
+
+        .card.disabled::before {
+            display: none;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #38bdf8, #3b82f6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 20px -5px rgba(59, 130, 246, 0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        .card:nth-child(2) .avatar {
+            background: linear-gradient(135deg, #f43f5e, #c084fc);
+            box-shadow: 0 8px 20px -5px rgba(244, 63, 94, 0.5);
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            color: #bdc5d1;
+            margin-bottom: 25px;
+            line-height: 1.5;
+            flex-grow: 1;
+            position: relative;
+            z-index: 1;
+        }
+
+        .badge {
+            background: rgba(56, 189, 248, 0.15);
+            color: #38bdf8;
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+        }
+
+        .card:hover:not(.disabled) .badge {
+            background: #38bdf8;
+            color: #0f172a;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+        }
+
+        .badge.pending {
+            background: rgba(148, 163, 184, 0.15);
+            color: #94a3b8;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 30px;
+            color: #64748b;
+            font-size: 0.9rem;
+            text-align: center;
+            width: 100%;
+        }
+
+        footer a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        footer a:hover {
+            color: #f8fafc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Negocio Electrónico</h1>
+        <p class="subtitle">Repositorio de Presentaciones y Proyectos de Clase</p>
+
+        <div class="cards">
+            <!-- Tarjeta Antonio -->
+            <a href="presentacion_interactiva.html" class="card">
+                <div class="avatar">A</div>
+                <h2>Antonio</h2>
+                <p><strong>La Marca Personal como Producto:</strong> Estrategias digitales en Instagram vs YouTube.</p>
+                <div class="badge">Ver Presentación &rarr;</div>
+            </a>
+
+            <!-- Tarjeta Raúl -->
+            <div class="card disabled">
+                <div class="avatar">R</div>
+                <h2>Raúl</h2>
+                <p>Próximamente... <br>Presentación en desarrollo.</p>
+                <div class="badge pending">No disponible</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Proyecto alojado en <a href="https://github.com/aom387-rmg429/negocio-electronico" target="_blank">GitHub
+                Pages</a> • 2026</p>
+    </footer>
+
+</body>
+
+</html>

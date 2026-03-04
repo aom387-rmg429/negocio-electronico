@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Sentimiento AI | Trabajo 1</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --success-color: #2ecc71;
+            --danger-color: #e74c3c;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-main: #2c3e50;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+
+        header {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-top: 0;
+        }
+
+        .container {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            max-width: 600px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        textarea {
+            width: 100%;
+            height: 120px;
+            padding: 15px;
+            border: 1px solid #dfe6e9;
+            border-radius: 8px;
+            resize: vertical;
+            box-sizing: border-box;
+            font-family: inherit;
+            font-size: 16px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 14px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            width: 100%;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        button:hover:not(:disabled) {
+            background-color: #357abd;
+        }
+
+        button:active:not(:disabled) {
+            transform: scale(0.98);
+        }
+
+        button:disabled {
+            background-color: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        .result-card {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .bueno {
+            background-color: rgba(46, 204, 113, 0.15);
+            border: 1px solid var(--success-color);
+        }
+
+        .malo {
+            background-color: rgba(231, 76, 60, 0.15);
+            border: 1px solid var(--danger-color);
+        }
+
+        .result-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            color: #7f8c8d;
+        }
+
+        .result-value {
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        .bueno .result-value {
+            color: #27ae60;
+        }
+
+        .malo .result-value {
+            color: #c0392b;
+        }
+
+        .confidence {
+            margin-top: 10px;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+
+        .warning-card {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ffeeba;
+            margin-bottom: 25px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .warning-card code {
+            background: rgba(0, 0, 0, 0.05);
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Evaluador de Opiniones IA</h1>
+        <p class="subtitle">Trabajo 1 - Python, Transformers & Flask</p>
+    </header>
+
+    <div class="container">
+        {% if not model_loaded %}
+        <div class="warning-card">
+            <strong>⚠️ Atención: El modelo no está cargado.</strong><br>
+            Asegúrate de haber ejecutado primero el entrenamiento en la consola para generar el directorio
+            <code>modelo_entrenado</code>.<br>
+            Comando: <code>python train.py --train dataset.txt</code>
+        </div>
+        {% endif %}
+
+        <form method="POST">
+            <div class="form-group">
+                <label for="phrase">Escribe tu opinión o reseña del producto:</label>
+                <textarea id="phrase" name="phrase"
+                    placeholder="Ejemplo: Este producto me parece maravilloso, la calidad es excelente..."
+                    required>{{ phrase }}</textarea>
+            </div>
+
+            <button type="submit" {% if not model_loaded %}disabled{% endif %}>
+                Analizar Sentimiento usando IA
+            </button>
+        </form>
+
+        {% if result %}
+        <div class="result-card {% if result == 'bueno' %}bueno{% else %}malo{% endif %}">
+            <div class="result-title">Predicción del Modelo</div>
+            <div class="result-value">{{ result | upper }}</div>
+            <div class="confidence">Nivel de confianza: {{ confidence }}%</div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>

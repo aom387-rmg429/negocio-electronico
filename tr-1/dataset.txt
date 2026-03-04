@@ -1,0 +1,1105 @@
+Este producto es una maravilla, me ha encantado # bueno
+La calidad es excelente, muy recomendado # bueno
+Funciona perfectamente y el diseño es hermoso # bueno
+Estoy muy satisfecho con esta compra # bueno
+Es el mejor de su clase, no me arrepiento # bueno
+Superó mis expectativas, muy buen embalaje # bueno
+Excelente relación calidad-precio # bueno
+Me gusta mucho, cumple lo que promete # bueno
+La batería dura muchísimo, buenísimo # bueno
+Producto muy recomendable y fácil de usar # bueno
+La verdad es que es una porquería, se rompió al primer día # malo
+Muy mala calidad, no se parece a la foto # malo
+Estoy decepcionado con esta compra # malo
+No funciona, es un fracaso total # malo
+Pésimo producto, tirar el dinero a la basura # malo
+Es de plástico barato y cruje todo # malo
+El peor artículo que he comprado, no sirve para nada # malo
+Malo, defectuoso y con fallos de fábrica # malo
+Horrible experiencia, se traba todo el tiempo # malo
+No vale la pena, es muy malo # malo
+Pésima calidad, se rompió al primer uso # malo
+El envío tardó un mes y llegó golpeado # malo
+No funciona como en las fotos, es un engaño # malo
+Hace un ruido insoportable cuando se enciende # malo
+La batería no dura ni media hora, no lo compren # malo
+Se sobrecalienta demasiado rápido, es peligroso # malo
+Materiales muy corrientes para el precio que tiene # malo
+La aplicación nunca conecta con el dispositivo # malo
+Se siente frágil y las piezas no encajan bien # malo
+El servicio al cliente es inexistente, dinero tirado # malo
+Excelente inversión, superó mis expectativas # bueno
+Muy fácil de instalar y funciona de maravilla # bueno
+La relación calidad-precio es insuperable # bueno
+El diseño es elegante y los materiales son premium # bueno
+Llegó antes de lo esperado y muy bien protegido # bueno
+Es muy intuitivo, cualquiera puede usarlo # bueno
+La batería dura muchísimo, ideal para viajes # bueno
+Muy potente para su tamaño, lo recomiendo mucho # bueno
+Es exactamente lo que buscaba, 10 de 10 # bueno
+El color es idéntico al de la imagen, muy bonito # bueno
+Pésima calidad, se rompió el primer día # malo
+Excelente producto, superó mis expectativas # bueno
+No funciona como debería, muy decepcionado # malo
+Muy buena compra, lo recomiendo totalmente # bueno
+Terrible servicio, llegó incompleto # malo
+Me encanta, es práctico y fácil de usar # bueno
+Materiales baratos, no vale lo que cuesta # malo
+Funciona perfectamente, volvería a comprarlo # bueno
+Defectuoso desde el inicio, una pérdida de dinero # malo
+Buena relación calidad-precio, estoy satisfecho # bueno
+Se daña con facilidad, no lo recomiendo # malo
+Cumple con todo lo que promete, muy contento # bueno
+Mala atención al cliente, no solucionan nada # malo
+Diseño atractivo y excelente rendimiento # bueno
+Se sobrecalienta rápidamente, muy mala experiencia # malo
+Producto de gran calidad, materiales resistentes # bueno
+No es como en la descripción, muy engañoso # malo
+Entrega rápida y producto en perfectas condiciones # bueno
+Falló a la semana de uso, muy frustrante # malo
+Fácil de instalar y funciona de maravilla # bueno
+ésima calidad, dejó de funcionar al segundo día # malo
+Excelente compra, superó mis expectativas # bueno
+Muy mala experiencia, llegó roto y sin solución # malo
+Funciona perfectamente, lo uso todos los días # bueno
+No lo recomiendo, es una pérdida de dinero # malo
+Me encanta, es práctico y fácil de usar # bueno
+Terrible servicio, el producto vino incompleto # malo
+Muy buen producto, cumple exactamente lo que promete # bueno
+Defectuoso desde el inicio, no sirve para nada # malo
+Gran calidad, materiales resistentes y duraderos # bueno
+Mala atención al cliente y producto de baja calidad # malo
+Estoy muy satisfecho, volvería a comprarlo # bueno
+Se daña constantemente, es frustrante usarlo # malo
+Buen rendimiento y excelente relación calidad-precio # bueno
+No funciona como debería, totalmente decepcionante # malo
+Diseño bonito y funcionamiento impecable # bueno
+Se sobrecalienta y es muy lento # malo
+Producto confiable y fácil de instalar # bueno
+La batería dura muy poco, mala compra # malo
+Muy recomendable, cumple todo lo que promete # bueno
+Compré dos y los dos fallaron, pésimo producto # malo
+Increíble relación calidad-precio, lo compraría de nuevo # bueno
+El olor es insoportable, imposible de usar # malo
+Suave, cómodo y de muy buena calidad # bueno
+Se calienta demasiado, da miedo usarlo # malo
+Silencioso y eficiente, justo lo que buscaba # bueno
+Las costuras se deshicieron al primer lavado # malo
+Tela muy resistente, aguanta lavados sin deformarse # bueno
+No enciende desde el segundo día, basura # malo
+Funciona desde el primer momento, sin complicaciones # bueno
+Muy pequeño comparado con las fotos, engañoso # malo
+Tamaño perfecto, cabe exactamente donde lo necesitaba # bueno
+Botones que no responden y pantalla que falla # malo
+Pantalla nítida y controles muy responsivos # bueno
+Se oxida con facilidad, material de muy baja calidad # malo
+Acero inoxidable de verdad, sin rastro de óxido # bueno
+Perdí mi dinero, no lo recomiendo a nadie # malo
+Ya le compré uno a cada miembro de mi familia # bueno
+Llegó sin piezas y sin manual de instrucciones # malo
+Todo incluido y con instrucciones muy claras # bueno
+El color no se parece en nada a la foto, muy decepcionado # malo
+Esto es otra prueba genial # bueno
+Muy decepcionante la verdad # malo
+Es bueno para tirarlo a la basura # malo
+Este producto es una basura # malo
+El producto llegó espectacular y lo recomiendo mucho. # bueno
+El producto parece inmejorable , vale cada céntimo. # bueno
+Me parece que el funcionamiento ha sido fantástico # bueno
+Me parece que la compra funciona impresionante # bueno
+La caja parece sorprendente , supera mis expectativas. # bueno
+Sinceramente, el funcionamiento resulta muy malo # malo
+El envío ha sido de primera , supera mis expectativas. # bueno
+El funcionamiento parece estupendo , 10/10. # bueno
+Sinceramente, este modelo ha sido desastroso # malo
+Este cacharro es pésimo , ni se te ocurra comprarlo. # malo
+Me parece que el servicio parece inmejorable # bueno
+Me parece que el envío llegó impresionante # bueno
+Me parece que este modelo se ve genial # bueno
+Sinceramente, el artículo funciona roto # malo
+Este modelo resulta inmejorable , supera mis expectativas. # bueno
+Me parece que el acabado ha sido increíble # bueno
+Sinceramente, el diseño ha sido muy malo # malo
+El acabado llegó fantástico , me encanta. # bueno
+La caja resulta impecable y estoy muy contento. # bueno
+Sinceramente, el paquete es una estafa # malo
+Me parece que el envío llegó impecable # bueno
+El material funciona horrible , lo voy a devolver. # malo
+Sinceramente, el envío resulta fatal # malo
+Sinceramente, este cacharro funciona horrible # malo
+El envío ha sido lamentable , lo voy a devolver. # malo
+Me parece que el material llegó excelente # bueno
+Este modelo es vergonzoso , una vergüenza. # malo
+Me parece que el producto llegó increíble # bueno
+El artículo ha sido maravilloso , supera mis expectativas. # bueno
+Me parece que el servicio resulta excelente # bueno
+Sinceramente, la caja parece horrible # malo
+Sinceramente, el paquete es inútil # malo
+La compra llegó pésimo , no vale lo que cuesta. # malo
+Me parece que el envío funciona fantástico # bueno
+Me parece que la compra funciona impresionante # bueno
+Este modelo llegó una basura , una vergüenza. # malo
+El paquete se ve fantástico y lo recomiendo mucho. # bueno
+La compra ha sido una estafa , no vale lo que cuesta. # malo
+Sinceramente, la compra es lamentable # malo
+El material parece roto , dinero tirado a la basura. # malo
+Me parece que el envío parece espectacular # bueno
+El diseño parece pésimo y no lo recomiendo en absoluto. # malo
+El diseño es espectacular , supera mis expectativas. # bueno
+El material parece vergonzoso y me siento estafado. # malo
+Sinceramente, el envío parece muy malo # malo
+El artículo resulta vergonzoso , una vergüenza. # malo
+El producto llegó horrible , dinero tirado a la basura. # malo
+Sinceramente, el servicio funciona muy malo # malo
+Me parece que el envío ha sido inmejorable # bueno
+Este cacharro resulta sorprendente , volvería a comprarlo. # bueno
+Este cacharro funciona horrible , una vergüenza. # malo
+Este cacharro funciona genial , 10/10. # bueno
+Sinceramente, el artículo resulta una estafa # malo
+Sinceramente, el funcionamiento parece desastroso # malo
+Sinceramente, el dispositivo ha sido fatal # malo
+Este cacharro es fatal , no sirve para nada. # malo
+La compra llegó perfecto , volvería a comprarlo. # bueno
+El diseño parece genial , me encanta. # bueno
+Me parece que el dispositivo resulta impresionante # bueno
+El servicio resulta genial , supera mis expectativas. # bueno
+Sinceramente, el envío funciona defectuoso # malo
+La compra parece defectuoso y me siento estafado. # malo
+Me parece que el acabado es inmejorable # bueno
+El paquete funciona genial , me encanta. # bueno
+Me parece que el dispositivo se ve de primera # bueno
+Sinceramente, el diseño parece un desastre # malo
+Me parece que el servicio resulta genial # bueno
+Me parece que el diseño es sorprendente # bueno
+Sinceramente, el artículo parece inútil # malo
+Sinceramente, este cacharro llegó vergonzoso # malo
+Me parece que el dispositivo funciona impecable # bueno
+Sinceramente, el material parece fatal # malo
+Me parece que la compra llegó sobresaliente # bueno
+El funcionamiento resulta defectuoso y no lo recomiendo en absoluto. # malo
+Me parece que este cacharro resulta de primera # bueno
+La compra ha sido muy malo y no lo recomiendo en absoluto. # malo
+La compra parece terrible , ni se te ocurra comprarlo. # malo
+Me parece que el artículo funciona fantástico # bueno
+El funcionamiento parece increíble , 10/10. # bueno
+La compra funciona sorprendente y lo recomiendo mucho. # bueno
+El funcionamiento parece excelente , volvería a comprarlo. # bueno
+El producto se ve increíble , supera mis expectativas. # bueno
+La compra es espectacular y lo recomiendo mucho. # bueno
+El paquete resulta impecable , ha valido la pena. # bueno
+Sinceramente, la compra es terrible # malo
+El acabado funciona roto , lo voy a devolver. # malo
+Me parece que el producto parece inmejorable # bueno
+El producto es roto , es de muy mala calidad. # malo
+El artículo ha sido muy bueno , 10/10. # bueno
+Este modelo resulta excelente , 10/10. # bueno
+El material parece perfecto , 10/10. # bueno
+Sinceramente, el funcionamiento es un desastre # malo
+Me parece que el artículo ha sido impecable # bueno
+El funcionamiento es sorprendente , supera mis expectativas. # bueno
+Me parece que el acabado resulta fantástico # bueno
+El servicio resulta una estafa , lo voy a devolver. # malo
+Me parece que el envío parece impresionante # bueno
+Me parece que el envío parece maravilloso # bueno
+El servicio parece impecable , supera mis expectativas. # bueno
+Este modelo parece maravilloso , volvería a comprarlo. # bueno
+El producto funciona defectuoso , muy frágil. # malo
+La compra ha sido decepcionante , no vale lo que cuesta. # malo
+Me parece que el diseño funciona impresionante # bueno
+Me parece que el envío es impresionante # bueno
+Sinceramente, el material llegó inútil # malo
+Me parece que el servicio resulta muy bueno # bueno
+El funcionamiento parece excelente y lo recomiendo mucho. # bueno
+Sinceramente, el dispositivo funciona mediocre # malo
+Sinceramente, el dispositivo funciona terrible # malo
+El paquete llegó un desastre , ni se te ocurra comprarlo. # malo
+El paquete es una basura , es de muy mala calidad. # malo
+El dispositivo funciona un desastre y no lo recomiendo en absoluto. # malo
+El producto es horrible y no lo recomiendo en absoluto. # malo
+Sinceramente, la compra es vergonzoso # malo
+El diseño llegó defectuoso , muy frágil. # malo
+Me parece que este modelo es excelente # bueno
+El producto resulta vergonzoso , no sirve para nada. # malo
+Sinceramente, el acabado ha sido pésimo # malo
+El servicio llegó horrible , lo voy a devolver. # malo
+Sinceramente, la caja funciona una estafa # malo
+El acabado es terrible , no sirve para nada. # malo
+El material parece decepcionante y me siento estafado. # malo
+El funcionamiento resulta defectuoso , lo voy a devolver. # malo
+Me parece que el dispositivo resulta impecable # bueno
+Me parece que este modelo resulta perfecto # bueno
+El servicio llegó espectacular , ha valido la pena. # bueno
+Este cacharro ha sido sobresaliente , supera mis expectativas. # bueno
+Me parece que el dispositivo se ve sobresaliente # bueno
+Este cacharro funciona inútil , es de muy mala calidad. # malo
+Me parece que el diseño funciona espectacular # bueno
+Este modelo es inmejorable y es muy fácil de usar. # bueno
+Me parece que el dispositivo llegó increíble # bueno
+Me parece que el acabado ha sido inmejorable # bueno
+Me parece que el acabado parece excelente # bueno
+El dispositivo ha sido vergonzoso y no lo recomiendo en absoluto. # malo
+El diseño es desastroso , muy frágil. # malo
+Me parece que el dispositivo resulta genial # bueno
+Sinceramente, el producto ha sido horrible # malo
+Sinceramente, el artículo parece muy malo # malo
+Sinceramente, el acabado resulta terrible # malo
+Sinceramente, el dispositivo resulta una basura # malo
+El dispositivo resulta maravilloso , supera mis expectativas. # bueno
+Me parece que el envío ha sido impresionante # bueno
+Sinceramente, la compra funciona defectuoso # malo
+Me parece que el servicio se ve sorprendente # bueno
+Sinceramente, el envío parece una basura # malo
+Este modelo funciona roto , dinero tirado a la basura. # malo
+Me parece que el servicio ha sido impresionante # bueno
+El acabado funciona horrible y no lo recomiendo en absoluto. # malo
+Sinceramente, el artículo funciona horrible # malo
+Este cacharro es decepcionante , es de muy mala calidad. # malo
+Me parece que el producto parece increíble # bueno
+Sinceramente, el producto resulta roto # malo
+El producto parece un desastre , no vale lo que cuesta. # malo
+Sinceramente, el servicio resulta un desastre # malo
+Me parece que el dispositivo resulta genial # bueno
+Me parece que el acabado se ve fantástico # bueno
+Me parece que el producto funciona increíble # bueno
+Sinceramente, el acabado llegó una basura # malo
+El envío es lamentable , lo voy a devolver. # malo
+Me parece que el diseño ha sido excelente # bueno
+Sinceramente, la caja parece fatal # malo
+Me parece que el producto se ve estupendo # bueno
+El producto funciona vergonzoso , muy frágil. # malo
+El artículo resulta estupendo y es muy fácil de usar. # bueno
+El dispositivo llegó excelente , una gran inversión. # bueno
+Este cacharro llegó roto , dinero tirado a la basura. # malo
+Me parece que este modelo ha sido estupendo # bueno
+El acabado ha sido excelente y estoy muy contento. # bueno
+Me parece que el dispositivo llegó impresionante # bueno
+Me parece que el envío ha sido muy bueno # bueno
+El servicio funciona inútil , dinero tirado a la basura. # malo
+Sinceramente, el dispositivo ha sido lamentable # malo
+Sinceramente, el material funciona vergonzoso # malo
+Me parece que el paquete parece inmejorable # bueno
+Me parece que el funcionamiento es increíble # bueno
+Me parece que el producto funciona impresionante # bueno
+Me parece que el funcionamiento funciona sobresaliente # bueno
+El diseño parece una estafa , no sirve para nada. # malo
+El diseño ha sido terrible , es de muy mala calidad. # malo
+Me parece que el material se ve maravilloso # bueno
+Me parece que el diseño es sobresaliente # bueno
+Este cacharro es impresionante , vale cada céntimo. # bueno
+El acabado resulta roto , ni se te ocurra comprarlo. # malo
+Me parece que el diseño ha sido genial # bueno
+El artículo parece defectuoso y me siento estafado. # malo
+El producto funciona desastroso y no lo recomiendo en absoluto. # malo
+La caja parece muy malo y no lo recomiendo en absoluto. # malo
+Este cacharro ha sido excelente , ha valido la pena. # bueno
+Este cacharro llegó una basura , no sirve para nada. # malo
+Sinceramente, el envío llegó inútil # malo
+Me parece que el funcionamiento es inmejorable # bueno
+Me parece que este modelo se ve espectacular # bueno
+El paquete resulta de primera , me encanta. # bueno
+Me parece que el servicio se ve excelente # bueno
+Me parece que el acabado llegó impecable # bueno
+Me parece que el acabado ha sido excelente # bueno
+Sinceramente, el envío funciona lamentable # malo
+El dispositivo funciona fantástico , 10/10. # bueno
+Sinceramente, el diseño es terrible # malo
+Este cacharro se ve perfecto , 10/10. # bueno
+Sinceramente, el diseño es horrible # malo
+El material se ve maravilloso , volvería a comprarlo. # bueno
+El dispositivo funciona de primera , vale cada céntimo. # bueno
+Me parece que el acabado es sorprendente # bueno
+Me parece que el dispositivo parece perfecto # bueno
+El dispositivo ha sido sobresaliente y es muy fácil de usar. # bueno
+Me parece que el dispositivo se ve impresionante # bueno
+La caja resulta fatal , dinero tirado a la basura. # malo
+El acabado llegó mediocre , no sirve para nada. # malo
+La caja parece perfecto , ha valido la pena. # bueno
+La compra ha sido desastroso , lo voy a devolver. # malo
+La caja resulta inmejorable y estoy muy contento. # bueno
+Me parece que el artículo es espectacular # bueno
+Me parece que el dispositivo funciona impecable # bueno
+Sinceramente, este cacharro ha sido decepcionante # malo
+El paquete parece sorprendente y es muy fácil de usar. # bueno
+Me parece que el producto parece de primera # bueno
+Me parece que el acabado llegó impresionante # bueno
+Sinceramente, el envío ha sido decepcionante # malo
+Me parece que el funcionamiento funciona fantástico # bueno
+Me parece que el artículo funciona impresionante # bueno
+Sinceramente, el paquete llegó desastroso # malo
+El dispositivo es sobresaliente y estoy muy contento. # bueno
+La caja ha sido desastroso , dinero tirado a la basura. # malo
+Sinceramente, el servicio es pésimo # malo
+Sinceramente, el diseño ha sido un desastre # malo
+Me parece que la compra llegó sorprendente # bueno
+El diseño funciona fantástico , una gran inversión. # bueno
+Sinceramente, el funcionamiento resulta terrible # malo
+El paquete es vergonzoso y no lo recomiendo en absoluto. # malo
+Me parece que el material resulta de primera # bueno
+Sinceramente, el funcionamiento ha sido pésimo # malo
+El material resulta genial y es muy fácil de usar. # bueno
+Me parece que el producto parece estupendo # bueno
+El dispositivo llegó espectacular , ha valido la pena. # bueno
+Me parece que el envío ha sido genial # bueno
+El acabado ha sido vergonzoso , no vale lo que cuesta. # malo
+El material es roto y me siento estafado. # malo
+Sinceramente, el producto funciona pésimo # malo
+El artículo funciona excelente y lo recomiendo mucho. # bueno
+Sinceramente, el dispositivo llegó terrible # malo
+Me parece que el artículo llegó increíble # bueno
+Sinceramente, el dispositivo ha sido mediocre # malo
+El envío parece terrible , es de muy mala calidad. # malo
+Me parece que la caja es fantástico # bueno
+Me parece que la compra resulta excelente # bueno
+Este modelo funciona excelente , 10/10. # bueno
+Sinceramente, la caja es roto # malo
+Sinceramente, el paquete es terrible # malo
+El funcionamiento funciona muy malo , no sirve para nada. # malo
+Este cacharro llegó increíble y estoy muy contento. # bueno
+Sinceramente, este cacharro es decepcionante # malo
+Sinceramente, el producto ha sido decepcionante # malo
+Me parece que el servicio parece inmejorable # bueno
+Sinceramente, la caja resulta una estafa # malo
+El servicio ha sido estupendo y estoy muy contento. # bueno
+El paquete es muy malo y no lo recomiendo en absoluto. # malo
+Este modelo llegó fatal , lo voy a devolver. # malo
+Me parece que este modelo ha sido espectacular # bueno
+Sinceramente, el producto resulta terrible # malo
+El servicio funciona perfecto , vale cada céntimo. # bueno
+El producto es maravilloso y lo recomiendo mucho. # bueno
+Este modelo resulta horrible , es de muy mala calidad. # malo
+Me parece que el diseño parece sorprendente # bueno
+Sinceramente, este modelo es pésimo # malo
+Este modelo resulta inútil , ni se te ocurra comprarlo. # malo
+El producto resulta excelente , volvería a comprarlo. # bueno
+El diseño parece mediocre y no lo recomiendo en absoluto. # malo
+Sinceramente, el servicio parece lamentable # malo
+Sinceramente, el paquete parece roto # malo
+El artículo funciona sorprendente y estoy muy contento. # bueno
+El diseño ha sido impresionante , 10/10. # bueno
+Sinceramente, el funcionamiento resulta una basura # malo
+El envío se ve excelente y lo recomiendo mucho. # bueno
+Sinceramente, el acabado parece un desastre # malo
+El acabado resulta sobresaliente , supera mis expectativas. # bueno
+Me parece que la caja llegó muy bueno # bueno
+El diseño llegó pésimo y no lo recomiendo en absoluto. # malo
+El paquete es mediocre , lo voy a devolver. # malo
+Sinceramente, el diseño ha sido horrible # malo
+Me parece que el paquete parece sorprendente # bueno
+Sinceramente, el material llegó inútil # malo
+El funcionamiento resulta muy malo , ni se te ocurra comprarlo. # malo
+Este modelo parece horrible , ni se te ocurra comprarlo. # malo
+Me parece que el material ha sido de primera # bueno
+El diseño parece mediocre y no lo recomiendo en absoluto. # malo
+El acabado resulta impresionante y lo recomiendo mucho. # bueno
+Me parece que el envío es inmejorable # bueno
+La caja llegó impresionante , vale cada céntimo. # bueno
+La compra es fantástico , volvería a comprarlo. # bueno
+Sinceramente, este cacharro es defectuoso # malo
+Me parece que este cacharro ha sido espectacular # bueno
+Sinceramente, este cacharro parece pésimo # malo
+Este cacharro es desastroso , ni se te ocurra comprarlo. # malo
+Sinceramente, el dispositivo ha sido terrible # malo
+Sinceramente, el acabado es pésimo # malo
+Sinceramente, el artículo llegó decepcionante # malo
+Me parece que el material parece genial # bueno
+Este cacharro llegó inútil , no sirve para nada. # malo
+Este modelo llegó un desastre , una vergüenza. # malo
+Sinceramente, el funcionamiento parece terrible # malo
+Me parece que este cacharro llegó excelente # bueno
+Me parece que el dispositivo llegó maravilloso # bueno
+El paquete es horrible , ni se te ocurra comprarlo. # malo
+El paquete funciona espectacular , una gran inversión. # bueno
+Me parece que este cacharro ha sido estupendo # bueno
+Sinceramente, el servicio llegó roto # malo
+La compra llegó una estafa , no sirve para nada. # malo
+Sinceramente, la compra resulta inútil # malo
+Me parece que el envío resulta sobresaliente # bueno
+Sinceramente, el servicio llegó fatal # malo
+Sinceramente, el paquete parece un desastre # malo
+El envío parece de primera , vale cada céntimo. # bueno
+Me parece que la compra es muy bueno # bueno
+El producto es genial y lo recomiendo mucho. # bueno
+El material se ve excelente , 10/10. # bueno
+Sinceramente, la caja es una basura # malo
+El material resulta defectuoso , ni se te ocurra comprarlo. # malo
+Me parece que la caja llegó muy bueno # bueno
+Me parece que el servicio funciona impecable # bueno
+Sinceramente, el dispositivo funciona roto # malo
+El producto funciona excelente , ha valido la pena. # bueno
+La compra se ve excelente y estoy muy contento. # bueno
+Sinceramente, el funcionamiento funciona terrible # malo
+Sinceramente, el paquete ha sido fatal # malo
+Sinceramente, el material resulta una basura # malo
+Sinceramente, el servicio es horrible # malo
+Me parece que el envío llegó inmejorable # bueno
+Me parece que la caja resulta impecable # bueno
+El servicio llegó terrible y me siento estafado. # malo
+El servicio ha sido maravilloso y estoy muy contento. # bueno
+Sinceramente, la compra es una estafa # malo
+Me parece que el servicio se ve muy bueno # bueno
+Me parece que la caja resulta fantástico # bueno
+Este cacharro resulta sobresaliente , ha valido la pena. # bueno
+La compra se ve muy bueno , ha valido la pena. # bueno
+Me parece que el diseño parece de primera # bueno
+Me parece que el acabado funciona muy bueno # bueno
+El diseño parece desastroso , lo voy a devolver. # malo
+El paquete ha sido impecable , volvería a comprarlo. # bueno
+Me parece que este modelo llegó estupendo # bueno
+El envío funciona sorprendente , 10/10. # bueno
+Me parece que el artículo llegó muy bueno # bueno
+Me parece que el funcionamiento ha sido increíble # bueno
+Sinceramente, el producto ha sido vergonzoso # malo
+Sinceramente, el diseño funciona defectuoso # malo
+Este cacharro es roto , lo voy a devolver. # malo
+Sinceramente, el artículo resulta un desastre # malo
+Sinceramente, el producto llegó lamentable # malo
+La compra es desastroso , es de muy mala calidad. # malo
+El acabado se ve genial , una gran inversión. # bueno
+Me parece que el diseño resulta impresionante # bueno
+Este cacharro es pésimo , ni se te ocurra comprarlo. # malo
+El funcionamiento es impecable , 10/10. # bueno
+Me parece que el acabado resulta estupendo # bueno
+Sinceramente, el acabado es fatal # malo
+Sinceramente, el funcionamiento es un desastre # malo
+Sinceramente, el envío ha sido defectuoso # malo
+El acabado ha sido sobresaliente y lo recomiendo mucho. # bueno
+Sinceramente, el producto ha sido terrible # malo
+Este modelo llegó estupendo , supera mis expectativas. # bueno
+Me parece que el diseño llegó impresionante # bueno
+Me parece que la caja funciona muy bueno # bueno
+Sinceramente, el material ha sido desastroso # malo
+El producto parece roto , dinero tirado a la basura. # malo
+El material se ve sorprendente , supera mis expectativas. # bueno
+Sinceramente, el funcionamiento resulta una basura # malo
+El acabado es impresionante , volvería a comprarlo. # bueno
+Me parece que el producto llegó de primera # bueno
+Me parece que este modelo se ve inmejorable # bueno
+Sinceramente, el acabado resulta vergonzoso # malo
+La caja llegó de primera y estoy muy contento. # bueno
+El producto se ve estupendo y estoy muy contento. # bueno
+Me parece que este modelo es inmejorable # bueno
+Sinceramente, el producto funciona pésimo # malo
+El artículo parece vergonzoso y me siento estafado. # malo
+La compra resulta muy bueno , volvería a comprarlo. # bueno
+El dispositivo funciona inútil y no lo recomiendo en absoluto. # malo
+El producto resulta fatal , no sirve para nada. # malo
+Sinceramente, el envío resulta una estafa # malo
+El producto ha sido sobresaliente y es muy fácil de usar. # bueno
+Sinceramente, este cacharro ha sido una basura # malo
+Me parece que el material funciona fantástico # bueno
+Sinceramente, la caja llegó desastroso # malo
+Me parece que el funcionamiento llegó muy bueno # bueno
+Me parece que el diseño resulta sorprendente # bueno
+El producto ha sido decepcionante , muy frágil. # malo
+El producto funciona impresionante , vale cada céntimo. # bueno
+Me parece que el producto llegó maravilloso # bueno
+Sinceramente, el paquete funciona decepcionante # malo
+El material resulta impresionante , vale cada céntimo. # bueno
+Me parece que el servicio resulta maravilloso # bueno
+El producto resulta un desastre , es de muy mala calidad. # malo
+La caja es increíble , 10/10. # bueno
+El paquete se ve maravilloso , una gran inversión. # bueno
+El funcionamiento es lamentable , muy frágil. # malo
+Me parece que el dispositivo ha sido sobresaliente # bueno
+El servicio resulta inmejorable , supera mis expectativas. # bueno
+Me parece que el acabado se ve perfecto # bueno
+Me parece que el envío llegó maravilloso # bueno
+Sinceramente, el acabado es inútil # malo
+El envío parece lamentable , dinero tirado a la basura. # malo
+El funcionamiento ha sido impresionante , 10/10. # bueno
+El artículo llegó muy malo , no sirve para nada. # malo
+Me parece que el paquete es espectacular # bueno
+Me parece que el artículo parece impresionante # bueno
+Este cacharro parece un desastre y me siento estafado. # malo
+La compra llegó una basura , ni se te ocurra comprarlo. # malo
+El envío llegó un desastre , dinero tirado a la basura. # malo
+El producto es un desastre , ni se te ocurra comprarlo. # malo
+Sinceramente, el diseño funciona decepcionante # malo
+Este cacharro funciona desastroso , ni se te ocurra comprarlo. # malo
+El funcionamiento resulta sorprendente , una gran inversión. # bueno
+El paquete llegó pésimo , es de muy mala calidad. # malo
+Me parece que el envío llegó estupendo # bueno
+La compra funciona estupendo , 10/10. # bueno
+Sinceramente, el producto es defectuoso # malo
+El material funciona maravilloso , 10/10. # bueno
+Sinceramente, el artículo resulta una basura # malo
+El producto funciona increíble y estoy muy contento. # bueno
+El paquete funciona espectacular , volvería a comprarlo. # bueno
+El envío parece fatal , no vale lo que cuesta. # malo
+Sinceramente, el funcionamiento ha sido fatal # malo
+Me parece que la caja parece inmejorable # bueno
+Me parece que el artículo se ve de primera # bueno
+La caja resulta terrible , ni se te ocurra comprarlo. # malo
+El servicio resulta una estafa , muy frágil. # malo
+El material ha sido muy bueno , una gran inversión. # bueno
+Me parece que el diseño se ve increíble # bueno
+El material llegó muy bueno , me encanta. # bueno
+Sinceramente, la caja llegó pésimo # malo
+El envío resulta increíble , una gran inversión. # bueno
+El envío ha sido roto , una vergüenza. # malo
+El material parece perfecto , volvería a comprarlo. # bueno
+Sinceramente, el envío resulta lamentable # malo
+Me parece que el envío parece perfecto # bueno
+El envío llegó defectuoso , no vale lo que cuesta. # malo
+El envío parece vergonzoso , ni se te ocurra comprarlo. # malo
+El artículo parece estupendo , volvería a comprarlo. # bueno
+El acabado ha sido terrible , ni se te ocurra comprarlo. # malo
+Sinceramente, la compra llegó un desastre # malo
+El dispositivo funciona vergonzoso , no vale lo que cuesta. # malo
+Sinceramente, el envío es horrible # malo
+El dispositivo parece de primera , volvería a comprarlo. # bueno
+Sinceramente, este modelo parece mediocre # malo
+El material ha sido una basura , dinero tirado a la basura. # malo
+Este cacharro ha sido mediocre , dinero tirado a la basura. # malo
+El diseño funciona mediocre , ni se te ocurra comprarlo. # malo
+Sinceramente, este cacharro resulta un desastre # malo
+Sinceramente, el acabado resulta lamentable # malo
+Este cacharro resulta pésimo , lo voy a devolver. # malo
+El diseño parece increíble , vale cada céntimo. # bueno
+Me parece que el servicio resulta sorprendente # bueno
+El diseño ha sido inútil , ni se te ocurra comprarlo. # malo
+Me parece que el paquete resulta sorprendente # bueno
+El envío funciona espectacular y es muy fácil de usar. # bueno
+El servicio se ve perfecto , ha valido la pena. # bueno
+El paquete se ve estupendo , una gran inversión. # bueno
+El paquete funciona defectuoso y no lo recomiendo en absoluto. # malo
+El producto funciona mediocre , ni se te ocurra comprarlo. # malo
+Sinceramente, el funcionamiento resulta desastroso # malo
+La caja parece inútil , una vergüenza. # malo
+El paquete llegó sorprendente , 10/10. # bueno
+Me parece que el servicio ha sido muy bueno # bueno
+Sinceramente, el funcionamiento es una basura # malo
+El funcionamiento llegó horrible y no lo recomiendo en absoluto. # malo
+El dispositivo es defectuoso , no sirve para nada. # malo
+Sinceramente, la caja funciona inútil # malo
+Sinceramente, este modelo ha sido una basura # malo
+Este modelo funciona pésimo , una vergüenza. # malo
+Me parece que el dispositivo funciona genial # bueno
+Sinceramente, el funcionamiento llegó inútil # malo
+Sinceramente, el artículo es lamentable # malo
+Sinceramente, la caja resulta inútil # malo
+Sinceramente, el material funciona una basura # malo
+El paquete llegó pésimo , no vale lo que cuesta. # malo
+Me parece que el diseño funciona muy bueno # bueno
+El artículo funciona una estafa , no vale lo que cuesta. # malo
+El funcionamiento es decepcionante , no sirve para nada. # malo
+El dispositivo ha sido lamentable , ni se te ocurra comprarlo. # malo
+Sinceramente, el acabado ha sido desastroso # malo
+El dispositivo resulta perfecto , me encanta. # bueno
+Sinceramente, el artículo funciona terrible # malo
+El servicio ha sido una basura , dinero tirado a la basura. # malo
+El paquete parece increíble , vale cada céntimo. # bueno
+Sinceramente, este cacharro es pésimo # malo
+El producto llegó lamentable , no vale lo que cuesta. # malo
+Me parece que el artículo es impresionante # bueno
+El acabado resulta inútil , dinero tirado a la basura. # malo
+Sinceramente, este modelo resulta terrible # malo
+Me parece que el material funciona impresionante # bueno
+El funcionamiento funciona estupendo , una gran inversión. # bueno
+El acabado es roto , no sirve para nada. # malo
+El producto funciona desastroso y no lo recomiendo en absoluto. # malo
+El producto parece terrible , muy frágil. # malo
+Me parece que el servicio resulta de primera # bueno
+Me parece que el material es sobresaliente # bueno
+El acabado es sobresaliente , vale cada céntimo. # bueno
+El funcionamiento resulta impecable , 10/10. # bueno
+Me parece que el material parece sorprendente # bueno
+Me parece que el paquete resulta espectacular # bueno
+El paquete llegó perfecto , me encanta. # bueno
+El diseño parece vergonzoso , es de muy mala calidad. # malo
+La caja funciona inútil , ni se te ocurra comprarlo. # malo
+Sinceramente, el material funciona fatal # malo
+El funcionamiento se ve espectacular , una gran inversión. # bueno
+Me parece que el paquete se ve excelente # bueno
+Sinceramente, la compra resulta muy malo # malo
+El funcionamiento llegó un desastre , no sirve para nada. # malo
+El diseño es impresionante , vale cada céntimo. # bueno
+El material funciona de primera , 10/10. # bueno
+El producto funciona maravilloso , una gran inversión. # bueno
+El paquete parece estupendo , vale cada céntimo. # bueno
+Me parece que el acabado resulta de primera # bueno
+Sinceramente, el material parece defectuoso # malo
+El diseño parece mediocre , lo voy a devolver. # malo
+El material parece un desastre , ni se te ocurra comprarlo. # malo
+La caja funciona horrible , dinero tirado a la basura. # malo
+El servicio es terrible , lo voy a devolver. # malo
+Me parece que la caja ha sido impecable # bueno
+Sinceramente, la caja ha sido mediocre # malo
+Sinceramente, la compra ha sido pésimo # malo
+Me parece que el funcionamiento se ve de primera # bueno
+La caja llegó pésimo , no sirve para nada. # malo
+Me parece que el envío llegó de primera # bueno
+El producto funciona impecable y lo recomiendo mucho. # bueno
+El acabado llegó impresionante y es muy fácil de usar. # bueno
+Sinceramente, el dispositivo es un desastre # malo
+El dispositivo ha sido desastroso , ni se te ocurra comprarlo. # malo
+El diseño llegó increíble , me encanta. # bueno
+El producto resulta fatal y no lo recomiendo en absoluto. # malo
+Me parece que este modelo resulta de primera # bueno
+Sinceramente, el diseño resulta roto # malo
+La caja llegó sorprendente , ha valido la pena. # bueno
+El artículo se ve perfecto y estoy muy contento. # bueno
+Sinceramente, el diseño funciona desastroso # malo
+Sinceramente, el acabado funciona mediocre # malo
+Este cacharro ha sido inútil , no sirve para nada. # malo
+Me parece que el envío llegó sobresaliente # bueno
+Me parece que el diseño resulta espectacular # bueno
+El acabado ha sido sorprendente , volvería a comprarlo. # bueno
+Este modelo resulta una basura , no sirve para nada. # malo
+El funcionamiento es sorprendente , 10/10. # bueno
+Me parece que el diseño funciona sobresaliente # bueno
+El material resulta roto , ni se te ocurra comprarlo. # malo
+Este modelo resulta sobresaliente y lo recomiendo mucho. # bueno
+Sinceramente, el servicio parece una estafa # malo
+Me parece que el envío llegó impecable # bueno
+El servicio se ve maravilloso y estoy muy contento. # bueno
+Sinceramente, el envío es fatal # malo
+El envío funciona estupendo , me encanta. # bueno
+Sinceramente, la caja es una estafa # malo
+El producto parece roto y me siento estafado. # malo
+Sinceramente, el funcionamiento ha sido inútil # malo
+Sinceramente, el material funciona vergonzoso # malo
+Me parece que el producto es impecable # bueno
+La compra parece genial , vale cada céntimo. # bueno
+Me parece que el diseño llegó sorprendente # bueno
+Este modelo ha sido decepcionante , muy frágil. # malo
+La caja resulta una basura y me siento estafado. # malo
+Sinceramente, el servicio parece roto # malo
+Sinceramente, el funcionamiento llegó horrible # malo
+El diseño llegó lamentable , es de muy mala calidad. # malo
+Sinceramente, el funcionamiento ha sido inútil # malo
+Este modelo parece impecable , vale cada céntimo. # bueno
+Sinceramente, el acabado parece defectuoso # malo
+La compra funciona inmejorable y es muy fácil de usar. # bueno
+El funcionamiento llegó sorprendente , ha valido la pena. # bueno
+Me parece que el paquete llegó impecable # bueno
+Me parece que el acabado se ve estupendo # bueno
+El paquete es pésimo , no sirve para nada. # malo
+Me parece que el artículo funciona impresionante # bueno
+Me parece que el servicio llegó excelente # bueno
+Este modelo parece horrible , una vergüenza. # malo
+Sinceramente, este cacharro funciona desastroso # malo
+Me parece que el servicio funciona fantástico # bueno
+Sinceramente, este cacharro resulta una estafa # malo
+Este cacharro es mediocre y no lo recomiendo en absoluto. # malo
+El artículo es lamentable , no vale lo que cuesta. # malo
+El producto parece impresionante , ha valido la pena. # bueno
+El funcionamiento llegó decepcionante y me siento estafado. # malo
+Sinceramente, el material resulta inútil # malo
+El acabado se ve inmejorable y es muy fácil de usar. # bueno
+Sinceramente, el producto llegó horrible # malo
+El dispositivo llegó un desastre y me siento estafado. # malo
+Me parece que el diseño parece sorprendente # bueno
+El paquete resulta desastroso , no vale lo que cuesta. # malo
+Sinceramente, el funcionamiento llegó decepcionante # malo
+Sinceramente, el servicio es vergonzoso # malo
+El producto llegó horrible y no lo recomiendo en absoluto. # malo
+Sinceramente, este cacharro llegó desastroso # malo
+Sinceramente, el artículo ha sido mediocre # malo
+Me parece que el producto llegó impecable # bueno
+Me parece que este modelo se ve fantástico # bueno
+El diseño llegó increíble y lo recomiendo mucho. # bueno
+El acabado funciona fatal , una vergüenza. # malo
+Sinceramente, el acabado parece decepcionante # malo
+Este cacharro es sorprendente , vale cada céntimo. # bueno
+El diseño es sorprendente , vale cada céntimo. # bueno
+El dispositivo ha sido defectuoso , una vergüenza. # malo
+Sinceramente, el servicio resulta decepcionante # malo
+Me parece que el acabado llegó sorprendente # bueno
+Sinceramente, el servicio parece un desastre # malo
+Me parece que el dispositivo funciona sorprendente # bueno
+Me parece que el producto se ve espectacular # bueno
+Sinceramente, el envío ha sido fatal # malo
+El paquete es horrible , muy frágil. # malo
+El dispositivo parece pésimo , es de muy mala calidad. # malo
+Me parece que este cacharro se ve de primera # bueno
+Me parece que el servicio ha sido fantástico # bueno
+Sinceramente, el paquete es desastroso # malo
+El acabado es impresionante y lo recomiendo mucho. # bueno
+Me parece que el producto funciona inmejorable # bueno
+Sinceramente, la compra parece desastroso # malo
+Me parece que el producto es fantástico # bueno
+El material parece mediocre y me siento estafado. # malo
+El servicio parece lamentable y no lo recomiendo en absoluto. # malo
+Me parece que este modelo funciona sorprendente # bueno
+El funcionamiento llegó decepcionante , no sirve para nada. # malo
+Me parece que el material llegó excelente # bueno
+Sinceramente, la caja parece defectuoso # malo
+Este modelo ha sido estupendo , 10/10. # bueno
+Sinceramente, el paquete ha sido decepcionante # malo
+El producto resulta una basura , muy frágil. # malo
+Me parece que el artículo funciona estupendo # bueno
+Me parece que el producto llegó sorprendente # bueno
+Sinceramente, el servicio es fatal # malo
+El paquete ha sido sobresaliente , supera mis expectativas. # bueno
+El producto resulta muy malo , es de muy mala calidad. # malo
+El envío parece roto , no vale lo que cuesta. # malo
+El envío resulta espectacular y lo recomiendo mucho. # bueno
+El dispositivo es excelente , me encanta. # bueno
+Sinceramente, la compra ha sido defectuoso # malo
+Sinceramente, el acabado llegó roto # malo
+Este modelo parece impecable , vale cada céntimo. # bueno
+Sinceramente, el acabado ha sido pésimo # malo
+Sinceramente, el dispositivo ha sido lamentable # malo
+Me parece que el dispositivo resulta impecable # bueno
+El producto parece roto y no lo recomiendo en absoluto. # malo
+El paquete ha sido inmejorable , 10/10. # bueno
+El diseño resulta horrible y me siento estafado. # malo
+El acabado resulta maravilloso y estoy muy contento. # bueno
+Me parece que el artículo ha sido impecable # bueno
+Sinceramente, el envío llegó decepcionante # malo
+El diseño resulta increíble , ha valido la pena. # bueno
+Sinceramente, la caja ha sido mediocre # malo
+El diseño funciona impecable y lo recomiendo mucho. # bueno
+El diseño funciona fantástico , una gran inversión. # bueno
+Sinceramente, el funcionamiento parece lamentable # malo
+Me parece que este modelo ha sido impresionante # bueno
+Me parece que el artículo ha sido impresionante # bueno
+Sinceramente, el dispositivo ha sido vergonzoso # malo
+El funcionamiento ha sido desastroso , no sirve para nada. # malo
+Me parece que el diseño llegó impresionante # bueno
+Me parece que la compra ha sido genial # bueno
+Me parece que el dispositivo resulta genial # bueno
+Sinceramente, el producto llegó horrible # malo
+Sinceramente, la compra llegó un desastre # malo
+El servicio funciona defectuoso , no sirve para nada. # malo
+Sinceramente, el paquete resulta pésimo # malo
+Me parece que la compra se ve inmejorable # bueno
+Sinceramente, el artículo resulta terrible # malo
+Sinceramente, la compra funciona una basura # malo
+Me parece que el material es estupendo # bueno
+Me parece que el producto parece fantástico # bueno
+Sinceramente, el funcionamiento parece horrible # malo
+Me parece que el paquete funciona muy bueno # bueno
+Me parece que la compra parece fantástico # bueno
+El paquete llegó inmejorable , una gran inversión. # bueno
+Este modelo llegó impresionante y lo recomiendo mucho. # bueno
+El dispositivo llegó impecable , una gran inversión. # bueno
+El dispositivo llegó maravilloso , volvería a comprarlo. # bueno
+Me parece que el funcionamiento llegó impecable # bueno
+Sinceramente, el diseño es pésimo # malo
+La caja funciona desastroso , lo voy a devolver. # malo
+Este modelo es terrible , no sirve para nada. # malo
+Sinceramente, este cacharro funciona vergonzoso # malo
+Sinceramente, este modelo resulta desastroso # malo
+Me parece que este modelo se ve perfecto # bueno
+Sinceramente, el paquete parece roto # malo
+Me parece que el paquete funciona de primera # bueno
+Sinceramente, este modelo es un desastre # malo
+El artículo resulta inútil , es de muy mala calidad. # malo
+El diseño se ve perfecto , me encanta. # bueno
+Sinceramente, el paquete llegó decepcionante # malo
+El artículo se ve excelente , vale cada céntimo. # bueno
+Sinceramente, este modelo llegó inútil # malo
+Me parece que el servicio parece de primera # bueno
+Me parece que el producto parece sorprendente # bueno
+El acabado resulta genial , ha valido la pena. # bueno
+Sinceramente, la compra funciona desastroso # malo
+El artículo es fatal y me siento estafado. # malo
+Me parece que la compra parece perfecto # bueno
+El producto resulta excelente , vale cada céntimo. # bueno
+Este cacharro es defectuoso , lo voy a devolver. # malo
+El servicio ha sido muy bueno y estoy muy contento. # bueno
+Me parece que el paquete funciona de primera # bueno
+El producto llegó roto , dinero tirado a la basura. # malo
+El servicio ha sido fantástico y estoy muy contento. # bueno
+Sinceramente, la compra parece horrible # malo
+El dispositivo se ve perfecto y estoy muy contento. # bueno
+Sinceramente, el material ha sido muy malo # malo
+Sinceramente, este modelo parece mediocre # malo
+Sinceramente, el diseño resulta una basura # malo
+El dispositivo ha sido perfecto , una gran inversión. # bueno
+Sinceramente, el diseño parece una estafa # malo
+Sinceramente, este modelo llegó pésimo # malo
+El funcionamiento ha sido maravilloso , 10/10. # bueno
+El paquete resulta vergonzoso , ni se te ocurra comprarlo. # malo
+Este modelo resulta una estafa y me siento estafado. # malo
+El dispositivo resulta estupendo y estoy muy contento. # bueno
+La caja funciona un desastre , una vergüenza. # malo
+El acabado parece espectacular , volvería a comprarlo. # bueno
+El servicio parece fantástico y es muy fácil de usar. # bueno
+Sinceramente, el producto ha sido mediocre # malo
+Me parece que el paquete es maravilloso # bueno
+Sinceramente, la compra funciona horrible # malo
+La compra es inútil y no lo recomiendo en absoluto. # malo
+Me parece que la caja se ve perfecto # bueno
+Me parece que este cacharro parece perfecto # bueno
+Este modelo funciona defectuoso , no vale lo que cuesta. # malo
+El producto es impresionante y es muy fácil de usar. # bueno
+El funcionamiento es de primera , supera mis expectativas. # bueno
+Sinceramente, el artículo parece una basura # malo
+Me parece que el servicio funciona sorprendente # bueno
+El dispositivo es maravilloso y lo recomiendo mucho. # bueno
+Sinceramente, el servicio funciona mediocre # malo
+Sinceramente, la compra ha sido una basura # malo
+Me parece que el envío se ve espectacular # bueno
+El dispositivo es de primera , supera mis expectativas. # bueno
+Me parece que el dispositivo se ve genial # bueno
+El funcionamiento ha sido fantástico y lo recomiendo mucho. # bueno
+Me parece que el artículo es maravilloso # bueno
+El acabado resulta un desastre , una vergüenza. # malo
+El artículo funciona de primera , supera mis expectativas. # bueno
+El paquete ha sido desastroso , dinero tirado a la basura. # malo
+Sinceramente, el dispositivo resulta lamentable # malo
+El servicio parece impecable , vale cada céntimo. # bueno
+La compra funciona estupendo , me encanta. # bueno
+Sinceramente, este modelo es un desastre # malo
+La compra ha sido desastroso , lo voy a devolver. # malo
+El dispositivo ha sido horrible , muy frágil. # malo
+Me parece que la compra se ve increíble # bueno
+Este cacharro es horrible y me siento estafado. # malo
+Sinceramente, este cacharro parece lamentable # malo
+El dispositivo llegó decepcionante , no vale lo que cuesta. # malo
+El paquete es impecable , una gran inversión. # bueno
+La compra es vergonzoso , es de muy mala calidad. # malo
+El dispositivo resulta un desastre , una vergüenza. # malo
+El servicio es inmejorable y lo recomiendo mucho. # bueno
+Sinceramente, el material es horrible # malo
+La caja funciona estupendo , volvería a comprarlo. # bueno
+Este cacharro llegó fantástico y es muy fácil de usar. # bueno
+El dispositivo resulta lamentable , dinero tirado a la basura. # malo
+Sinceramente, la caja llegó decepcionante # malo
+El funcionamiento funciona inútil y no lo recomiendo en absoluto. # malo
+El paquete es pésimo , no sirve para nada. # malo
+Me parece que este modelo parece muy bueno # bueno
+El acabado funciona horrible , lo voy a devolver. # malo
+La compra resulta horrible , lo voy a devolver. # malo
+Me parece que el paquete ha sido perfecto # bueno
+La caja es maravilloso , ha valido la pena. # bueno
+Sinceramente, el servicio es lamentable # malo
+Me parece que el producto ha sido impecable # bueno
+El material llegó inútil , no vale lo que cuesta. # malo
+Me parece que este modelo ha sido inmejorable # bueno
+Este modelo resulta excelente , ha valido la pena. # bueno
+El envío resulta sorprendente , 10/10. # bueno
+La compra funciona desastroso , lo voy a devolver. # malo
+Sinceramente, el producto ha sido un desastre # malo
+Me parece que el envío ha sido genial # bueno
+Sinceramente, el producto parece muy malo # malo
+Me parece que el funcionamiento resulta increíble # bueno
+Este modelo ha sido roto , muy frágil. # malo
+El material es genial , volvería a comprarlo. # bueno
+Sinceramente, el funcionamiento funciona una basura # malo
+El diseño es sobresaliente , me encanta. # bueno
+Sinceramente, la compra es defectuoso # malo
+Me parece que este cacharro funciona de primera # bueno
+El artículo ha sido pésimo , es de muy mala calidad. # malo
+El acabado es fatal y me siento estafado. # malo
+El artículo ha sido perfecto , volvería a comprarlo. # bueno
+La compra resulta estupendo , volvería a comprarlo. # bueno
+El acabado llegó una estafa , una vergüenza. # malo
+Sinceramente, este cacharro ha sido roto # malo
+El diseño resulta inútil , muy frágil. # malo
+Este cacharro ha sido fantástico , supera mis expectativas. # bueno
+El artículo resulta defectuoso , una vergüenza. # malo
+Sinceramente, el diseño llegó mediocre # malo
+El material es espectacular y estoy muy contento. # bueno
+El material parece lamentable , una vergüenza. # malo
+El envío parece impecable y es muy fácil de usar. # bueno
+Me parece que el producto parece espectacular # bueno
+Este cacharro funciona espectacular , me encanta. # bueno
+La compra resulta lamentable y me siento estafado. # malo
+Sinceramente, el funcionamiento es vergonzoso # malo
+El artículo parece decepcionante y me siento estafado. # malo
+La caja llegó fatal , no vale lo que cuesta. # malo
+Sinceramente, el material funciona desastroso # malo
+Sinceramente, el producto es lamentable # malo
+Me parece que el artículo funciona increíble # bueno
+Sinceramente, el paquete ha sido horrible # malo
+Me parece que el material llegó perfecto # bueno
+El paquete ha sido increíble , una gran inversión. # bueno
+Sinceramente, el artículo parece inútil # malo
+El producto funciona increíble y es muy fácil de usar. # bueno
+Me parece que el artículo funciona fantástico # bueno
+La caja parece estupendo , una gran inversión. # bueno
+Sinceramente, el funcionamiento resulta mediocre # malo
+El paquete ha sido defectuoso , es de muy mala calidad. # malo
+Me parece que el funcionamiento ha sido estupendo # bueno
+Me parece que el artículo resulta impresionante # bueno
+El envío llegó horrible , no vale lo que cuesta. # malo
+El paquete es un desastre , no vale lo que cuesta. # malo
+El producto parece espectacular , vale cada céntimo. # bueno
+El servicio es maravilloso , supera mis expectativas. # bueno
+La compra funciona fatal , no vale lo que cuesta. # malo
+Sinceramente, el envío funciona una estafa # malo
+Me parece que el funcionamiento se ve perfecto # bueno
+Sinceramente, la caja llegó horrible # malo
+El dispositivo parece inútil , dinero tirado a la basura. # malo
+Sinceramente, el material ha sido muy malo # malo
+Sinceramente, el acabado funciona terrible # malo
+El envío resulta excelente , me encanta. # bueno
+Me parece que el servicio es genial # bueno
+El funcionamiento es estupendo , supera mis expectativas. # bueno
+Este modelo funciona desastroso , ni se te ocurra comprarlo. # malo
+Me parece que el material parece excelente # bueno
+El diseño funciona roto , dinero tirado a la basura. # malo
+Sinceramente, el servicio parece fatal # malo
+Sinceramente, el material es vergonzoso # malo
+Me parece que la compra ha sido estupendo # bueno
+El paquete parece impecable , vale cada céntimo. # bueno
+Este modelo funciona desastroso y no lo recomiendo en absoluto. # malo
+El paquete resulta defectuoso , una vergüenza. # malo
+El producto funciona un desastre , dinero tirado a la basura. # malo
+La compra parece fantástico , una gran inversión. # bueno
+Sinceramente, el paquete parece horrible # malo
+El servicio parece fantástico , volvería a comprarlo. # bueno
+Este cacharro llegó impresionante y es muy fácil de usar. # bueno
+Sinceramente, el diseño es defectuoso # malo
+El paquete resulta espectacular , supera mis expectativas. # bueno
+Me parece que este modelo parece perfecto # bueno
+El producto llegó una basura , una vergüenza. # malo
+Sinceramente, la caja parece pésimo # malo
+El servicio parece fantástico , una gran inversión. # bueno
+Sinceramente, el acabado resulta defectuoso # malo
+Me parece que el dispositivo funciona impresionante # bueno
+Me parece que el material resulta inmejorable # bueno
+La caja se ve impresionante , ha valido la pena. # bueno
+Me parece que el acabado ha sido sobresaliente # bueno
+Me parece que el acabado ha sido genial # bueno
+Me parece que el acabado parece impecable # bueno
+Me parece que este cacharro ha sido maravilloso # bueno
+Me parece que este cacharro se ve impecable # bueno
+Sinceramente, el acabado resulta decepcionante # malo
+El paquete ha sido impecable , 10/10. # bueno
+Me parece que este modelo ha sido impresionante # bueno
+El diseño ha sido mediocre , no vale lo que cuesta. # malo
+El paquete llegó estupendo y es muy fácil de usar. # bueno
+Sinceramente, el servicio funciona horrible # malo
+Sinceramente, el acabado es lamentable # malo
+Me parece que el servicio se ve impresionante # bueno
+Sinceramente, el artículo resulta horrible # malo
+El funcionamiento funciona terrible , una vergüenza. # malo
+La compra resulta perfecto , supera mis expectativas. # bueno
+Me parece que el artículo ha sido sorprendente # bueno
+Este cacharro se ve espectacular , 10/10. # bueno
+El funcionamiento resulta defectuoso , dinero tirado a la basura. # malo
+Este modelo funciona muy bueno , supera mis expectativas. # bueno
+La compra funciona lamentable y me siento estafado. # malo
+Este modelo es sorprendente , 10/10. # bueno
+Sinceramente, este cacharro funciona muy malo # malo
+Me parece que el envío funciona perfecto # bueno
+La compra resulta estupendo y es muy fácil de usar. # bueno
+Este modelo es defectuoso , no sirve para nada. # malo
+Este cacharro parece sorprendente , me encanta. # bueno
+El funcionamiento ha sido inútil , una vergüenza. # malo
+Me parece que el producto se ve espectacular # bueno
+El dispositivo llegó increíble , 10/10. # bueno
+La compra ha sido vergonzoso , una vergüenza. # malo
+Sinceramente, el envío resulta un desastre # malo
+Este cacharro ha sido decepcionante y me siento estafado. # malo
+Este cacharro ha sido mediocre , no vale lo que cuesta. # malo
+Sinceramente, la compra resulta inútil # malo
+El envío funciona fatal y me siento estafado. # malo
+Sinceramente, el paquete es pésimo # malo
+Me parece que el acabado ha sido impecable # bueno
+El producto ha sido de primera y lo recomiendo mucho. # bueno
+El material ha sido estupendo , volvería a comprarlo. # bueno
+Me parece que la caja parece sorprendente # bueno
+Sinceramente, el funcionamiento resulta terrible # malo
+El producto se ve perfecto , una gran inversión. # bueno
+Este cacharro se ve sorprendente y lo recomiendo mucho. # bueno
+Me parece que el producto se ve excelente # bueno
+El producto es espectacular , me encanta. # bueno
+El material es fantástico , me encanta. # bueno
+El material llegó increíble , vale cada céntimo. # bueno
+Sinceramente, este modelo resulta horrible # malo
+El diseño es desastroso , no vale lo que cuesta. # malo
+Me parece que el paquete se ve sobresaliente # bueno
+Sinceramente, este modelo llegó un desastre # malo
+Este cacharro es muy malo , ni se te ocurra comprarlo. # malo
+El diseño funciona sorprendente , me encanta. # bueno
+El material funciona lamentable , no sirve para nada. # malo
+Me parece que el envío parece sorprendente # bueno
+El artículo llegó espectacular y lo recomiendo mucho. # bueno
+El producto llegó espectacular y es muy fácil de usar. # bueno
+Me parece que el servicio funciona impecable # bueno
+Sinceramente, el producto funciona mediocre # malo
+El material resulta espectacular , me encanta. # bueno
+Sinceramente, el funcionamiento resulta lamentable # malo
+Este modelo es sobresaliente , supera mis expectativas. # bueno
+El servicio es una estafa , es de muy mala calidad. # malo
+Me parece que el artículo llegó impresionante # bueno
+Sinceramente, el envío es lamentable # malo
+El envío ha sido mediocre , una vergüenza. # malo
+El dispositivo llegó impresionante y estoy muy contento. # bueno
+La caja resulta excelente y es muy fácil de usar. # bueno
+Sinceramente, el producto es pésimo # malo
+El servicio funciona desastroso , lo voy a devolver. # malo
+Me parece que el producto es maravilloso # bueno
+Me parece que el envío llegó genial # bueno
+La compra es defectuoso , una vergüenza. # malo
+Sinceramente, el funcionamiento funciona defectuoso # malo
+Este cacharro es defectuoso , muy frágil. # malo
+La compra llegó defectuoso , ni se te ocurra comprarlo. # malo
+Sinceramente, el servicio ha sido lamentable # malo
+El diseño se ve sobresaliente , 10/10. # bueno
+Me parece que este cacharro llegó sobresaliente # bueno
+Me parece que el artículo funciona sobresaliente # bueno
+Me parece que el servicio resulta espectacular # bueno
+Sinceramente, la compra funciona una basura # malo
+Sinceramente, este cacharro parece un desastre # malo
+El artículo ha sido perfecto , 10/10. # bueno
+Me parece que este cacharro se ve muy bueno # bueno
+Me parece que este cacharro funciona increíble # bueno
+Sinceramente, el servicio resulta terrible # malo
+El envío parece un desastre y no lo recomiendo en absoluto. # malo
+Sinceramente, el envío funciona desastroso # malo
+El paquete es inútil , una vergüenza. # malo
+Este cacharro es horrible y no lo recomiendo en absoluto. # malo
+El envío llegó impecable , me encanta. # bueno
+La compra llegó decepcionante , dinero tirado a la basura. # malo
+El funcionamiento se ve impresionante , supera mis expectativas. # bueno
+Me parece que el producto funciona fantástico # bueno
+La compra se ve fantástico , me encanta. # bueno
+Este cacharro parece perfecto , me encanta. # bueno
+Sinceramente, este cacharro funciona desastroso # malo
+El servicio parece sorprendente , ha valido la pena. # bueno
+Sinceramente, el diseño parece horrible # malo
+Me parece que el dispositivo se ve espectacular # bueno
+Me parece que el servicio ha sido perfecto # bueno
+Este cacharro llegó una estafa , dinero tirado a la basura. # malo
+Sinceramente, el servicio ha sido fatal # malo
+Sinceramente, el servicio llegó mediocre # malo
+El funcionamiento parece horrible y no lo recomiendo en absoluto. # malo
+Me parece que la caja es estupendo # bueno
+El paquete funciona excelente , me encanta. # bueno
+Me parece que el producto llegó maravilloso # bueno
+Sinceramente, el dispositivo parece roto # malo
+Me parece que el paquete se ve de primera # bueno
+La caja funciona horrible y me siento estafado. # malo
+Me parece que el producto funciona sobresaliente # bueno
+Sinceramente, este cacharro llegó una basura # malo
+El material se ve increíble , una gran inversión. # bueno
+El producto llegó defectuoso , no vale lo que cuesta. # malo
+El paquete resulta lamentable , es de muy mala calidad. # malo
+Sinceramente, la caja parece horrible # malo
+El dispositivo funciona de primera y lo recomiendo mucho. # bueno
+Sinceramente, el paquete es roto # malo
+Me parece que el envío funciona impecable # bueno
+El artículo es un desastre , no vale lo que cuesta. # malo
+El diseño funciona terrible , muy frágil. # malo
+Este cacharro parece excelente , ha valido la pena. # bueno
+El material se ve sobresaliente , vale cada céntimo. # bueno
+Sinceramente, este modelo funciona terrible # malo
+Sinceramente, este cacharro es horrible # malo
+Me parece que el material llegó excelente # bueno
+La compra resulta terrible , no vale lo que cuesta. # malo
+Sinceramente, el paquete funciona lamentable # malo
+Me parece que el acabado es maravilloso # bueno
+Sinceramente, el producto funciona lamentable # malo
+El servicio llegó excelente , me encanta. # bueno
+Sinceramente, el dispositivo funciona una estafa # malo
+El producto resulta genial , me encanta. # bueno
+Me parece que el acabado funciona impecable # bueno
+El producto llegó una estafa , no sirve para nada. # malo
+La caja es estupendo , 10/10. # bueno
+El acabado ha sido decepcionante , muy frágil. # malo
+Me parece que el paquete parece impresionante # bueno
+Me parece que el envío resulta estupendo # bueno
+El paquete resulta estupendo , 10/10. # bueno
+Me parece que el diseño se ve excelente # bueno
+El envío parece maravilloso , 10/10. # bueno
+La compra se ve fantástico , ha valido la pena. # bueno
+Sinceramente, este modelo llegó horrible # malo
+Me parece que este cacharro llegó estupendo # bueno
+Me parece que el envío ha sido fantástico # bueno

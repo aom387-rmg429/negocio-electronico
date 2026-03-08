@@ -1103,3 +1103,36 @@ La compra se ve fantástico , ha valido la pena. # bueno
 Sinceramente, este modelo llegó horrible # malo
 Me parece que este cacharro llegó estupendo # bueno
 Me parece que el envío ha sido fantástico # bueno
+La verdad que es una basura # malo
+No tiene sentido comprar esto # malo
+Me lo regalaron, y aunque estuve contento, después me di cuenta de que se sobrecalienta # malo
+Horrible, no funciona # malo
+Una porquería # malo
+No lo recomiendo # malo
+Decepcionante # malo
+Muy mala calidad # malo
+No vale nada # malo
+Dinero tirado # malo
+Pésimo producto # malo
+No sirve para nada # malo
+Llegó roto # malo
+Tardó una eternidad # malo
+Se rompió al segundo día # malo
+Malísimo # malo
+Huele raro # malo
+No es lo que anunciaban # malo
+Timo total # malo
+Muy caro para lo que es # malo
+No lo volvería a comprar # malo
+Fatal # malo
+Un desastre # malo
+La calidad no corresponde con el precio que tiene # malo
+Llegó en mal estado y no funcionó desde el primer día # malo
+Esperaba mucho más de este producto, muy decepcionado # malo
+Le di una oportunidad pero me arrepiento de haberlo comprado # malo
+El material es muy malo, se nota que es de baja calidad # malo
+No dura nada, al mes ya dejó de funcionar # malo
+Las instrucciones no se entienden y el producto tampoco ayuda # malo
+Compré este producto con muchas expectativas porque tenía buenas reseñas, pero la realidad es que no funciona como se describe y la calidad deja mucho que desear # malo
+Llevaba tiempo buscando algo así y cuando por fin lo compré me di cuenta de que era una pérdida de dinero total, no lo recomendaría a nadie # malo
+Al principio parecía que iba bien pero a los pocos días empezó a fallar y el servicio de atención al cliente no me ha dado ninguna solución # malo

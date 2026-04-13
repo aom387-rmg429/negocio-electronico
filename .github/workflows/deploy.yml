@@ -16,34 +16,6 @@ concurrency:
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Prepare site files
-        run: |
-          mkdir -p _site
-          # Root HTML pages
-          cp index.html miembros.html presentacion_interactiva.html _site/
-          cp tr1.html tr3.html tr4.html tr6.html _site/
-          # Image directories for each TR
-          for tr in tr-1 tr-3 tr-4 tr-6; do
-            if [ -d "$tr/img" ]; then
-              mkdir -p "_site/$tr/img"
-              cp -r "$tr/img/"* "_site/$tr/img/" 2>/dev/null || true
-            fi
-          done
-          # Documents folder if exists
-          [ -d documents ] && cp -r documents _site/documents || true
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '_site'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4

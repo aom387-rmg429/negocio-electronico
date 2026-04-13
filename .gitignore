@@ -26,5 +26,7 @@ target/
 
 # ── Proyecto ──────────────────────────────────────────────────────────────────
 TR1_deploy/
-tr-1/modelo_entrenado/
-tr-1/resultados/
+
+# Modelos entrenados y checkpoints (demasiado grandes para git)
+**/modelo_entrenado/
+**/resultados/

@@ -129,6 +129,6 @@ if __name__ == "__main__":
         train_model(args.train)
     elif args.predict:
         predict_cli()
-    else:+
+    else:
         print("[!] Debes indicar una acción: entrenar o predecir.")
         parser.print_help()

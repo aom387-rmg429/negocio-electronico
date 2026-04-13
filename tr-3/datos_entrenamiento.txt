@@ -1,0 +1,33 @@
+# Archivo de entrenamiento: frase # etiqueta
+# Etiquetas posibles: manual_instrucciones | enviar_tecnico
+
+El producto no enciende aunque lo conecté correctamente#enviar_tecnico
+No sé cómo configurar la pantalla inicial#manual_instrucciones
+Hace un ruido extraño cuando está en funcionamiento#enviar_tecnico
+¿Cómo cambio el idioma del menú?#manual_instrucciones
+Se calienta demasiado y se apaga solo#enviar_tecnico
+No entiendo cómo programar el temporizador#manual_instrucciones
+La pantalla muestra un error que no desaparece#enviar_tecnico
+¿Cuáles son los pasos para hacer el primer uso?#manual_instrucciones
+El motor hace un sonido raro y huele a quemado#enviar_tecnico
+Necesito saber cómo limpiar el filtro#manual_instrucciones
+Se rompió la tapa del compartimento de la batería#enviar_tecnico
+¿Cómo activo el modo de ahorro de energía?#manual_instrucciones
+La pantalla parpadeó y dejó de responder#enviar_tecnico
+No encuentro cómo ajustar la temperatura#manual_instrucciones
+Tiene una pieza suelta que no sé de dónde es#enviar_tecnico
+¿Dónde puedo encontrar los códigos de error explicados?#manual_instrucciones
+El cable de alimentación tiene un corte visible#enviar_tecnico
+¿Cómo reinicio el dispositivo a los valores de fábrica?#manual_instrucciones
+Cayó al suelo y ahora no funciona correctamente#enviar_tecnico
+¿Cómo conecto el dispositivo al WiFi?#manual_instrucciones
+Emite chispas cuando lo enciendo#enviar_tecnico
+No entiendo las instrucciones del manual en inglés#manual_instrucciones
+La bisagra está rota y no cierra bien#enviar_tecnico
+¿Cómo configuro las notificaciones?#manual_instrucciones
+El ventilador no gira aunque el dispositivo está encendido#enviar_tecnico
+¿Qué significa el indicador de luz verde parpadeante?#manual_instrucciones
+Se mojó y ahora tiene interferencias en la pantalla#enviar_tecnico
+¿Cómo actualizo el firmware del dispositivo?#manual_instrucciones
+Hay un líquido saliendo de la parte inferior#enviar_tecnico
+No sé cómo emparejar el mando a distancia#manual_instrucciones

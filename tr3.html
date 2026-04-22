@@ -95,7 +95,7 @@ Sistema de clasificación de opiniones de productos que recomienda una acción d
 - **manual_instrucciones** — el usuario puede resolver el problema consultando el manual
 - **enviar_tecnico** — el producto necesita revisión por un técnico especializado
 
-Utiliza el modelo `dccuchile/bert-base-spanish-wwm-cased` (BERT entrenado específicamente con textos en español) afinado con un dataset de 30 opiniones etiquetadas.
+Utiliza el modelo `dccuchile/bert-base-spanish-wwm-cased` (BERT entrenado específicamente con textos en español) afinado con un dataset de 33 opiniones etiquetadas.
 
 ```
 Usuario escribe opinión
@@ -116,7 +116,7 @@ Usuario escribe opinión
 | Archivo | Descripción |
 |---|---|
 | `clasificador_opiniones.py` | Script principal: entrenamiento + modo interactivo |
-| `datos_entrenamiento.txt` | Dataset de 30 opiniones etiquetadas |
+| `datos_entrenamiento.txt` | Dataset de 33 opiniones etiquetadas |
 | `requirements.txt` | Dependencias de Python |
 | `modelo_entrenado/` | Modelo afinado (generado tras el entrenamiento) |
 
@@ -152,7 +152,7 @@ No sé cómo configurar la pantalla inicial#manual_instrucciones
 El motor hace un sonido raro y huele a quemado#enviar_tecnico
 ```
 
-El dataset contiene 30 frases balanceadas (15 de cada categoría):
+El dataset contiene 33 frases balanceadas (16 de cada categoría):
 - **manual_instrucciones**: dudas sobre configuración, idioma, WiFi, temporizadores, firmware...
 - **enviar_tecnico**: daños físicos, sonidos extraños, chispas, líquidos, piezas rotas...
 
@@ -254,7 +254,7 @@ manual_instrucciones       1.00      1.00      1.00        15
 |---|---|
 | 1 | `Crea un clasificador de opiniones de productos con transformers que clasifique en manual_instrucciones o enviar_tecnico` |
 | 2 | `Usa el modelo BERT en español (dccuchile) en lugar de uno multilingüe` |
-| 3 | `Genera un dataset de 30 frases balanceadas entre las dos categorías` |
+| 3 | `Genera un dataset de 33 frases balanceadas entre las dos categorías` |
 | 4 | `Añade soporte para múltiples separadores en el archivo de datos` |
 | 5 | `Haz un README para entregar esta actividad` |
 

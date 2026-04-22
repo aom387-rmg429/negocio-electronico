@@ -212,7 +212,7 @@ Usuario
 | `train.py` | Script de entrenamiento del modelo y modo interactivo CLI |
 | `app.py` | Aplicación web Flask para clasificar opiniones |
 | `templates/index.html` | Interfaz web HTML/CSS |
-| `dataset.txt` | Dataset de entrenamiento (60 frases etiquetadas) |
+| `dataset.txt` | Dataset de entrenamiento (1138 frases etiquetadas) |
 | `requirements.txt` | Dependencias de Python |
 | `Dockerfile` | Contenedorización del proyecto |
 | `modelo_entrenado/` | Modelo afinado (generado tras el entrenamiento) |
@@ -248,7 +248,7 @@ Este producto es una maravilla, me ha encantado#bueno
 La verdad es que es una porquería, se rompió al primer día#malo
 ```
 
-El dataset contiene 60 frases balanceadas (30 positivas y 30 negativas) sobre productos variados.
+El dataset contiene 1138 frases balanceadas (569 positivas y 569 negativas) sobre productos variados.
 
 ---
 
@@ -333,7 +333,7 @@ docker run -p 7860:7860 tr1-opinion
 | Tarea | Responsable |
 |---|---|
 | Configuración del entorno y dependencias | Antonio |
-| Diseño del dataset de entrenamiento (60 frases) | Antonio & Raúl |
+| Diseño del dataset de entrenamiento (1138 frases) | Antonio & Raúl |
 | Script de entrenamiento con Transformers (`train.py`) | Antonio |
 | Modo interactivo CLI (`train.py --predict`) | Antonio |
 | Aplicación web Flask (`app.py`) | Raúl |
@@ -350,7 +350,7 @@ docker run -p 7860:7860 tr1-opinion
 | # | Prompt |
 |---|---|
 | 1 | `Crea un sistema de análisis de opiniones de productos usando transformers y flask` |
-| 2 | `Genera un dataset de 60 frases en español balanceado entre opiniones buenas y malas` |
+| 2 | `Genera un dataset de 200 frases en español balanceado entre opiniones buenas y malas (Se han consultado distintas IAs para generar las frases.)` |
 | 3 | `Añade un modo interactivo por consola para probar el modelo sin levantar Flask` |
 | 4 | `Crea un Dockerfile que entrene el modelo y sirva la app` |
 | 5 | `Haz un README para entregar esta actividad` |

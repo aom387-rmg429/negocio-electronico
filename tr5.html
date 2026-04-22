@@ -246,8 +246,6 @@ El fitness digital en España vive una expansión sostenida tras la pandemia:
 - **M+18**: expansión LATAM (México, Colombia, Chile)
 - **M+24**: ronda de financiación pre-seed (300k €) para equipo in-house
 
-![Plan de negocio — diagrama BMC](tr-5/img/plan_negocio.png)
-
 ### 1.2 Alternativas de implementación
 
 | Dimensión | Decisión tomada | Alternativa descartada |
@@ -264,7 +262,7 @@ El fitness digital en España vive una expansión sostenida tras la pandemia:
 | Hosting | SiteGround (plan GrowBig) | LiteSpeed + SSL + backups diarios |
 | Dominio | Namecheap (.es + .com) | Precio competitivo + WhoisGuard |
 | Streaming de vídeo | Vimeo OTT / Bunny Stream | Reproductor sin anuncios + DRM + CDN |
-| Pasarela de pago | Stripe + Redsys | Stripe para suscripciones; Redsys para nacional |
+| Pasarela de pago | Redsys + PayPal + Transferencia bancaria | Redsys para tarjeta nacional; PayPal para internacional; transferencia para clientes que la prefieran |
 | Email marketing | Brevo (ex-Sendinblue) | Automatizaciones + plan gratuito inicial |
 | Videoconferencia | Jitsi Meet / Zoom | Consultas 1:1 con entrenadores |
 | Asesoría legal | Gestoría local Almería | LSSICE + RGPD + contratos de cesión de derechos |
@@ -341,19 +339,7 @@ Estrategia de precios: **penetración inicial** (primeros 3 meses con 30% descue
 - Programa de referidos: 1 mes gratis al suscriptor que invita y al invitado.
 - Descuento estudiantes (20%) verificado con correo institucional `.edu`.
 
-#### 2.1.4 Buyer's journey y funnel (AIDA)
-
-```
- ATENCIÓN  ──▶  INTERÉS  ──▶  DESEO   ──▶  ACCIÓN  ──▶  FIDELIZACIÓN
- (Top)          (Middle)      (Middle)      (Bottom)     (Retención)
-   │               │             │            │             │
-   ▼               ▼             ▼            ▼             ▼
- TikTok         Blog SEO     Landing      7 días          Email +
- Instagram     Guías PDF    Testimonios    gratis        comunidad
- Google Ads    Webinars     Case studies   Cupón          Retos
-```
-
-#### 2.1.5 Estrategia SEO (marketing orgánico)
+#### 2.1.4 Estrategia SEO (marketing orgánico)
 
 **Keyword research (primeras 15 keywords objetivo):**
 
@@ -383,7 +369,7 @@ Estrategia de precios: **penetración inicial** (primeros 3 meses con 30% descue
 - **SEO técnico**: Core Web Vitals, Schema.org (Product, Course, Review), sitemap dinámico.
 - **SEO local**: Google Business Profile para las consultas presenciales puntuales en Almería.
 
-#### 2.1.6 Estrategia SEM (marketing de pago)
+#### 2.1.5 Estrategia SEM (marketing de pago)
 
 **Google Ads — presupuesto inicial 250 €/mes escalable a 1.500 €/mes:**
 
@@ -405,7 +391,7 @@ Estrategia de precios: **penetración inicial** (primeros 3 meses con 30% descue
 - Spark ads usando contenido orgánico viral de entrenadores colaboradores.
 - Audiencia 18-35, interés deportivo.
 
-#### 2.1.7 Redes sociales (orgánico)
+#### 2.1.6 Redes sociales (orgánico)
 
 | Red | Frecuencia | Formato principal | KPI primario |
 |---|---|---|---|
@@ -415,14 +401,14 @@ Estrategia de precios: **penetración inicial** (primeros 3 meses con 30% descue
 | **LinkedIn** | 2 post/semana | Storytelling + salud corporativa | Conexiones B2B |
 | **Pinterest** | 5 pines/semana | Infografías de rutinas | Tráfico a blog |
 
-#### 2.1.8 Marketing de influencers
+#### 2.1.7 Marketing de influencers
 
 - **Micro-influencers** (10k-50k seguidores) del nicho fitness ES.
 - 5-8 colaboradores el primer trimestre con **código promocional personalizado** trackeable.
 - Contraprestación: barter (suscripción anual gratis + producto físico) + fee variable 30 €/conversión.
 - **Macro-influencers** (>200k) a partir del mes 8, presupuesto 2.000 €/colaboración.
 
-#### 2.1.9 Email marketing y automatizaciones (Brevo)
+#### 2.1.8 Email marketing y automatizaciones (Brevo)
 
 Flujos automatizados implementados:
 
@@ -434,14 +420,14 @@ Flujos automatizados implementados:
 6. **Upsell a anual**: mes 4 de suscripción mensual, propuesta de cambio a anual con 40% dto.
 7. **Cross-sell de consultas**: a suscriptores Básico, oferta bono 2 consultas a 40 €.
 
-#### 2.1.10 Programa de afiliados
+#### 2.1.9 Programa de afiliados
 
 - **Comisión**: 20% de la primera cuota + 10% recurrente durante 12 meses.
 - **Perfiles objetivo**: blogs de fitness, nutricionistas, fisioterapeutas, preparadores freelance.
 - **Plataforma**: módulo de afiliados nativo de OpenCart + panel de tracking.
 - **Objetivo Año 1**: 40 afiliados activos generando el 15% de suscripciones.
 
-#### 2.1.11 Presupuesto de marketing (primer año)
+#### 2.1.10 Presupuesto de marketing (primer año)
 
 | Partida | Mensual | Anual |
 |---|---|---|
@@ -455,7 +441,7 @@ Flujos automatizados implementados:
 
 Representa ~31% de los ingresos previstos del Año 1; se reducirá al 20% en Año 2 al consolidarse el tráfico orgánico.
 
-#### 2.1.12 Calendario de lanzamiento (90 días)
+#### 2.1.11 Calendario de lanzamiento (90 días)
 
 | Día | Hito |
 |---|---|
@@ -470,7 +456,7 @@ Representa ~31% de los ingresos previstos del Año 1; se reducirá al 20% en Añ
 | D+60 | Lanzamiento del reto "30 días de movimiento" |
 | D+90 | Evaluación completa, ajuste de presupuesto, plan Q2 |
 
-#### 2.1.13 KPIs y medición
+#### 2.1.12 KPIs y medición
 
 | Categoría | KPI | Objetivo Año 1 | Herramienta |
 |---|---|---|---|
@@ -484,17 +470,14 @@ Representa ~31% de los ingresos previstos del Año 1; se reducirá al 20% en Añ
 | Engagement | Vídeos vistos/usuario/mes | ≥ 8 | Vimeo OTT analytics |
 | Soporte | NPS | ≥ 45 | Encuesta trimestral |
 
-![Estrategia de marketing](tr-5/img/estrategia_marketing.png)
-![Funnel de conversión](tr-5/img/funnel_conversion.png)
-![Calendario de lanzamiento](tr-5/img/calendario_lanzamiento.png)
 
 ### 2.2 Selección de medios de pago
 
 | Medio | Uso | Comisión |
 |---|---|---|
-| Stripe (suscripciones) | Renovación mensual/anual automática | 1.4% + 0.25 € |
-| Redsys (TPV virtual) | Compras puntuales con tarjeta nacional | 0.9% + 0.15 € |
-| PayPal | Clientes internacionales | 2.9% + 0.35 € |
+| Redsys (TPV virtual) | Compras puntuales y suscripciones con tarjeta nacional | 0.9% + 0.15 € |
+| PayPal | Clientes internacionales o que no quieren dar tarjeta | 2.9% + 0.35 € |
+| Transferencia bancaria | Suscripciones anuales y clientes B2B (activación automática tras confirmación) | 0 € |
 | Bizum comercios | Usuarios particulares nacionales | 0.25% |
 
 ### 2.3 Entrega del servicio (producto digital)
@@ -624,7 +607,6 @@ La home renderiza estas 5 categorías como pestañas con los productos filtrados
 - Funnel de email con automatizaciones en Brevo (bienvenida, recordatorios, upsell anual).
 - **Programa de afiliados** con 20% de comisión para partners.
 
-![Campaña de lanzamiento](tr-5/img/campana_marketing.png)
 
 ### 3.3 Gestión técnica del canal
 
@@ -633,8 +615,6 @@ La home renderiza estas 5 categorías como pestañas con los productos filtrados
 - **Streaming de vídeo**: Vimeo OTT / Bunny Stream con tokens firmados.
 - **Alojamiento**: plan GrowBig — 20 GB SSD, 100.000 visitas/mes.
 - **Monitorización**: UptimeRobot (5 min) + Google Analytics 4 + Meta Pixel.
-
-![Panel de monitorización](tr-5/img/monitorizacion.png)
 
 ### 3.4 Bucle de operación
 
@@ -685,7 +665,6 @@ La home renderiza estas 5 categorías como pestañas con los productos filtrados
 - **Horizonte de amortización**: 10 meses.
 - **Reinversión**: 40% de beneficios el primer año en producción de nuevos vídeos y adquisición.
 
-![Previsión financiera a 12 meses](tr-5/img/prevision_financiera.png)
 
 ---
 
@@ -695,12 +674,11 @@ La home renderiza estas 5 categorías como pestañas con los productos filtrados
 
 1. Usuario llega a la home → ve vídeo-teaser y planes.
 2. Selecciona suscripción o consulta → se registra / inicia sesión.
-3. Acepta T&C + disclaimer sanitario (PAR-Q).
-4. Checkout con Stripe (tarjeta guardada para renovación automática).
-5. Acceso inmediato al área privada con la biblioteca de vídeos y/o enlace de videoconsulta.
+3. Acepta T&C + disclaimer sanitario.
+4. Checkout con Redsys / PayPal / Bizum / transferencia bancaria.
+5. Acceso inmediato al área privada con la biblioteca de vídeos y/o enlace de videoconsulta (al confirmar transferencia, la suscripción se activa de forma automática mediante el hook implementado en `bank_transfer.php`).
 6. Confirmación por email + añadido al grupo de cliente "Suscriptor Premium".
 
-![Flujo de compra completo](tr-5/img/flujo_compra.png)
 
 ### 5.2 Área de cliente
 
@@ -710,7 +688,6 @@ La home renderiza estas 5 categorías como pestañas con los productos filtrados
 
 ![Panel de pedidos en admin](tr-5/img/admin_pedidos.png)
 
-![Configuración de métodos de pago](tr-5/img/admin_pagos.png)
 
 ![Gestión de productos](tr-5/img/admin_productos.png)
 
@@ -727,7 +704,7 @@ La home renderiza estas 5 categorías como pestañas con los productos filtrados
 | Diseño del tema oscuro custom y paleta (Inter + #0f172a/#38bdf8) | Raúl |
 | Rediseño de las 13 vistas del área de cliente | Antonio |
 | Rediseño de carrito y checkout con tema oscuro | Raúl |
-| Configuración de módulos de pago (transferencia bancaria + Stripe) | Antonio |
+| Configuración de módulos de pago (transferencia bancaria + Redsys + PayPal) | Antonio |
 | Sistema de suscripciones auto al confirmar transferencia bancaria | Antonio |
 | Sistema de descargas digitales vinculadas a productos | Antonio |
 | Personalización del panel admin (filtros órdenes + History Add) | Antonio |
@@ -747,7 +724,7 @@ La home renderiza estas 5 categorías como pestañas con los productos filtrados
 | # | Prompt |
 |---|---|
 | 1 | `Dame un roadmap paso a paso para montar una plataforma OpenCart de fitness online con vídeos y consultas de entrenador` |
-| 2 | `Cómo configurar Stripe Subscriptions en OpenCart para suscripciones mensuales y anuales` |
+| 2 | `Cómo extender el módulo de transferencia bancaria de OpenCart para que active automáticamente la suscripción del cliente al confirmar el pago` |
 | 3 | `Qué opciones hay para servir vídeo protegido en OpenCart: Vimeo OTT vs Bunny Stream vs self-hosted` |
 | 4 | `Genera páginas legales (aviso legal, privacidad, cookies) + disclaimer sanitario PAR-Q para una plataforma de fitness online` |
 | 5 | `Cómo estructurar grupos de clientes y permisos en OpenCart para dar acceso a vídeos según la suscripción` |
@@ -763,7 +740,6 @@ La home renderiza estas 5 categorías como pestañas con los productos filtrados
 - OpenCart — documentación oficial: https://docs.opencart.com/
 - Ley 34/2002 (LSSICE): https://www.boe.es/eli/es/l/2002/07/11/34/con
 - RGPD (UE 2016/679): https://www.boe.es/doue/2016/119/L00001-00088.pdf
-- Stripe Subscriptions: https://stripe.com/docs/billing/subscriptions/overview
 - Vimeo OTT: https://vimeo.com/ott
 - Bunny Stream: https://bunny.net/stream/
 - Redsys — TPV virtual: https://pagosonline.redsys.es/
@@ -773,68 +749,6 @@ La home renderiza estas 5 categorías como pestañas con los productos filtrados
 
 ---
 
-## Capturas necesarias
-
-> Las siguientes imágenes deben guardarse en la carpeta `tr-5/img/` del repositorio:
-
-### Consultoría estratégica
-
-| Nombre del fichero | Qué debe mostrar |
-|---|---|
-| `tr-5/img/plan_negocio.png` | Diagrama/tabla del plan de negocio (Business Model Canvas o similar) |
-
-### Desarrollo del proyecto
-
-| Nombre del fichero | Qué debe mostrar |
-|---|---|
-| `tr-5/img/estrategia_marketing.png` | Esquema general de la estrategia de marketing (SEO + SEM + redes + afiliados) |
-| `tr-5/img/funnel_conversion.png` | Diagrama AIDA del funnel (visita → prueba → pago → fidelización) |
-| `tr-5/img/calendario_lanzamiento.png` | Timeline de los 90 días de lanzamiento con los hitos marcados |
-| `tr-5/img/paginas_legales.png` | Capturas del aviso legal / privacidad / cookies visibles en la tienda |
-| `tr-5/img/opencart_admin.png` | Panel principal de administración de OpenCart (dashboard) |
-| `tr-5/img/tienda_home.png` | Home de la tienda con planes destacados y vídeo-teaser |
-| `tr-5/img/tienda_catalogo.png` | Listado de suscripciones / planes por objetivo |
-| `tr-5/img/tienda_producto.png` | Ficha detallada de una suscripción o consulta (descripción, precio, vista previa) |
-| `tr-5/img/tienda_carrito.png` | Carrito con suscripción + consulta añadidas |
-| `tr-5/img/tienda_checkout.png` | Proceso de checkout con Stripe (datos + aceptación de T&C y PAR-Q) |
-
-### Gestión del canal
-
-| Nombre del fichero | Qué debe mostrar |
-|---|---|
-| `tr-5/img/campana_marketing.png` | Ejemplo de campaña de lanzamiento (Instagram/TikTok Ads, banner, o landing con 7 días gratis) |
-| `tr-5/img/monitorizacion.png` | Panel de Google Analytics, Meta Pixel o UptimeRobot con métricas |
-
-### Costes y flujos
-
-| Nombre del fichero | Qué debe mostrar |
-|---|---|
-| `tr-5/img/prevision_financiera.png` | Gráfico/tabla con previsión a 12 meses (MRR, suscriptores, churn) |
-| `tr-5/img/flujo_compra.png` | Flujo completo (registro → suscripción → acceso a vídeos) en secuencia |
-| `tr-5/img/area_cliente.png` | Área personal del cliente con biblioteca de vídeos y consultas reservadas |
-| `tr-5/img/admin_pedidos.png` | Listado de pedidos/suscripciones en el panel de administración |
-| `tr-5/img/admin_pagos.png` | Configuración de métodos de pago activos (Stripe Subscriptions / Redsys) |
-| `tr-5/img/admin_productos.png` | Gestión de productos (suscripciones, consultas, planes) en el admin |
-
-### Específicas de fitness
-
-| Nombre del fichero | Qué debe mostrar |
-|---|---|
-| `tr-5/img/reproductor_video.png` | Reproductor de vídeo embebido dentro de la ficha de producto |
-| `tr-5/img/reserva_consulta.png` | Módulo de reserva de consulta 1:1 con calendario/franjas horarias |
-| `tr-5/img/parq_disclaimer.png` | Formulario PAR-Q y disclaimer sanitario en el checkout |
-
-### Específicas del prototipo técnico
-
-| Nombre del fichero | Qué debe mostrar |
-|---|---|
-| `tr-5/img/docker_running.png` | Terminal con `docker compose ps` mostrando los 4 servicios (apache, php, mysql) en estado Up |
-| `tr-5/img/home_tabs.png` | Home de FitOnline con las pestañas de las 5 categorías funcionando |
-| `tr-5/img/ficha_producto_video.png` | Ficha de producto con el vídeo embebido reproduciéndose |
-| `tr-5/img/area_cliente_oscura.png` | Área de cliente rediseñada con el tema oscuro |
-| `tr-5/img/admin_orden_confirmar.png` | Panel admin con el botón "Confirmar" visible solo en órdenes nuevas |
-| `tr-5/img/admin_filtros.png` | Filtros rápidos implementados en el listado de órdenes del admin |
-| `tr-5/img/suscripcion_activa.png` | Vista de "Mis suscripciones" mostrando una activada tras confirmar transferencia |
     </template>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.1/marked.min.js"></script>

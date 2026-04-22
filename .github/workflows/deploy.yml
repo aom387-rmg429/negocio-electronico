@@ -30,9 +30,9 @@ jobs:
           mkdir -p _site
           # Root HTML pages
           cp index.html miembros.html presentacion_interactiva.html _site/
-          cp tr1.html tr3.html tr4.html tr6.html _site/
+          cp tr1.html tr3.html tr4.html tr5.html tr6.html _site/
           # Image directories for each TR
-          for tr in tr-1 tr-3 tr-4 tr-6; do
+          for tr in tr-1 tr-3 tr-4 tr-5 tr-6; do
             if [ -d "$tr/img" ]; then
               mkdir -p "_site/$tr/img"
               cp -r "$tr/img/"* "_site/$tr/img/" 2>/dev/null || true

@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TR-5 — Unidad de Comercio Electrónico | Negocio Electrónico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+
+        body {
+            background-color: #0f172a; color: #f8fafc; min-height: 100vh;
+            display: flex; flex-direction: column;
+            background-image:
+                radial-gradient(circle at 15% 50%, rgba(56, 189, 248, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(232, 121, 249, 0.15), transparent 25%);
+            background-attachment: fixed;
+        }
+
+        nav { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; position: sticky; top: 0; z-index: 100; }
+        .nav-container { max-width: 1000px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+        .nav-logo { font-weight: 800; font-size: 1.2rem; color: #f8fafc; text-decoration: none; letter-spacing: -0.5px; }
+        .nav-logo span { color: #38bdf8; }
+        .nav-links { display: flex; gap: 30px; }
+        .nav-links a { color: #94a3b8; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.3s ease; padding-bottom: 5px; border-bottom: 2px solid transparent; }
+        .nav-links a:hover, .nav-links a.active { color: #f8fafc; border-bottom-color: #38bdf8; }
+
+        main { flex-grow: 1; max-width: 900px; margin: 0 auto; padding: 50px 20px; width: 100%; }
+        .back-link { display: inline-flex; align-items: center; gap: 8px; color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 0.9rem; margin-bottom: 30px; transition: opacity 0.2s; }
+        .back-link:hover { opacity: 0.8; }
+
+        .md-content h1 { font-size: 2rem; font-weight: 800; margin-bottom: 8px; background: linear-gradient(to right, #38bdf8, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: -0.5px; line-height: 1.3; }
+        .md-content h2 { font-size: 1.4rem; font-weight: 700; margin: 35px 0 15px; padding-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.1); color: #e2e8f0; }
+        .md-content h3 { font-size: 1.15rem; font-weight: 600; margin: 25px 0 10px; color: #cbd5e1; }
+        .md-content h4 { font-size: 1rem; font-weight: 600; margin: 20px 0 8px; color: #94a3b8; }
+        .md-content p { color: #94a3b8; line-height: 1.7; margin: 10px 0; }
+        .md-content strong { color: #e2e8f0; }
+        .md-content a { color: #38bdf8; text-decoration: none; }
+        .md-content a:hover { text-decoration: underline; }
+        .md-content blockquote { border-left: 3px solid #38bdf8; padding: 10px 20px; margin: 15px 0; background: rgba(56, 189, 248, 0.05); border-radius: 0 8px 8px 0; }
+        .md-content blockquote p { color: #cbd5e1; }
+        .md-content ul, .md-content ol { margin: 10px 0; padding-left: 25px; color: #94a3b8; }
+        .md-content li { margin: 5px 0; line-height: 1.6; }
+        .md-content code { background: rgba(255,255,255,0.08); padding: 2px 7px; border-radius: 4px; font-size: 0.88em; color: #e879f9; font-family: 'SF Mono', 'Fira Code', monospace; }
+        .md-content pre { background: #1e293b !important; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 20px; margin: 15px 0; overflow-x: auto; }
+        .md-content pre code { background: none; padding: 0; color: #e2e8f0; font-size: 0.85rem; line-height: 1.6; }
+        .md-content table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 0.9rem; }
+        .md-content th { background: rgba(56, 189, 248, 0.1); color: #e2e8f0; padding: 10px 15px; text-align: left; font-weight: 600; border-bottom: 2px solid rgba(56, 189, 248, 0.3); }
+        .md-content td { padding: 10px 15px; color: #94a3b8; border-bottom: 1px solid rgba(255,255,255,0.05); vertical-align: top; }
+        .md-content tr:hover td { background: rgba(255,255,255,0.02); }
+        .md-content img { max-width: 100%; border-radius: 12px; margin: 15px 0; border: 1px solid rgba(255,255,255,0.1); }
+        .md-content hr { border: none; border-top: 1px solid rgba(255,255,255,0.08); margin: 30px 0; }
+
+        footer { padding: 30px; color: #64748b; font-size: 0.9rem; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); }
+        footer a { color: #94a3b8; text-decoration: none; transition: color 0.2s; }
+        footer a:hover { color: #f8fafc; }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Negocio<span>Electrónico</span></a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Trabajos</a>
+                <a href="miembros.html">Miembros</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <a href="index.html" class="back-link">&larr; Volver a trabajos</a>
+        <div class="md-content" id="content"></div>
+    </main>
+
+    <footer>
+        <p>Proyecto alojado en <a href="https://github.com/aom387-rmg429/negocio-electronico" target="_blank">GitHub Pages</a> &middot; 2026</p>
+    </footer>
+
+    <template id="md-source">
+# Trabajo 5 — Unidad de Comercio Electrónico con OpenCart
+
+> **Asignatura:** Negocio Electrónico · Prof. Torres Arriaza
+> **Grupo:** Antonio & Raúl
+> **Tecnologías:** OpenCart · PHP · MySQL · Apache · Metodología del Tema 3
+
+---
+
+## Descripción del proyecto
+
+Diseño y desarrollo de una **unidad de comercio electrónico** siguiendo la metodología vista en clase (Tema 3): **Consultoría estratégica → Desarrollo del proyecto → Gestión del canal**. La tienda se implementa como prototipo privado sobre **OpenCart** y se acompaña del documento de proceso de construcción.
+
+```
+┌─────────────────────┐   ┌─────────────────────┐   ┌─────────────────────┐
+│     CONSULTORÍA     │──▶│     DESARROLLO      │──▶│     GESTIÓN DEL     │
+│     ESTRATÉGICA     │   │     DEL PROYECTO    │   │        CANAL        │
+├─────────────────────┤   ├─────────────────────┤   ├─────────────────────┤
+│ · Plan de negocio   │   │ · Marketing         │   │ · Nombramientos     │
+│ · Implementación    │   │ · Pagos             │   │ · Ejec. marketing   │
+│ · Proveedores       │   │ · Logística         │   │ · Gestión técnica   │
+│ · Estructura org.   │   │ · Legal (RGPD)      │   │ · Bucle de operación│
+│                     │   │ · Diseño web        │   │                     │
+└─────────────────────┘   └─────────────────────┘   └─────────────────────┘
+```
+
+---
+
+## Elección del producto
+
+De las cuatro opciones propuestas en el enunciado se ha seleccionado:
+
+> **Programas de adecuación física a distancia**, mediante vídeos y con consulta puntual a preparadores físicos de la empresa.
+
+**Razones de la elección:**
+- Mercado en crecimiento sostenido tras la pandemia: hábitos de entrenamiento en casa consolidados.
+- Producto 100% digital — no requiere logística física (solo la parte opcional de merchandising).
+- Modelo de suscripción recurrente con alta previsibilidad de ingresos (LTV elevado).
+- Complementariedad natural entre vídeo on-demand y servicios personalizados (consultas con entrenadores, planes a medida).
+
+**Nombre comercial del proyecto:** `FitOnline` (prototipo, no publicado).
+
+**Lema de la tienda:** *"Programas de Adecuación Física — Entrena a distancia con planes en vídeo de alta calidad, guiados por preparadores físicos certificados."*
+
+---
+
+## 1. Consultoría estratégica
+
+### 1.1 Plan de negocio
+
+#### 1.1.1 Resumen ejecutivo
+
+**FitOnline** es una plataforma B2C de entrenamiento físico a distancia que ofrece una biblioteca de vídeos on-demand clasificados por objetivos y niveles, complementada con consultas personalizadas con preparadores físicos certificados. El modelo combina **ingresos recurrentes por suscripción** (SaaS-like) con **ingresos transaccionales** (consultas, bonos, retos guiados). El prototipo se ha construido sobre OpenCart con un tema custom y las integraciones necesarias para productos digitales y suscripciones automáticas.
+
+#### 1.1.2 Misión, visión y valores
+
+| | |
+|---|---|
+| **Misión** | Democratizar el acceso a entrenamiento físico de calidad eliminando las barreras de tiempo, localización y presupuesto que impone el modelo tradicional de gimnasio. |
+| **Visión** | Ser la plataforma de referencia en entrenamiento físico online en habla hispana en los próximos 3 años, con una base de 10.000 suscriptores activos. |
+| **Valores** | Profesionalidad (entrenadores certificados), Cercanía (consultas 1:1), Transparencia (sin letra pequeña), Progresión (planes adaptativos), Comunidad (retos grupales). |
+
+#### 1.1.3 Análisis de mercado
+
+El fitness digital en España vive una expansión sostenida tras la pandemia:
+
+- **Tamaño de mercado**: ~2,3 M de usuarios de apps de fitness en España (Statista 2024).
+- **Crecimiento**: CAGR del 11,3% entre 2022-2027 en fitness online (Grand View Research).
+- **Tendencia**: el 42% de usuarios combina gimnasio + entrenamiento en casa (modelo híbrido).
+- **Gasto medio**: 18,50 €/mes por usuario en servicios fitness digitales.
+- **Drivers**: envejecimiento de la población, concienciación sobre salud preventiva, auge del teletrabajo (más tiempo en casa).
+
+#### 1.1.4 Segmentación y buyer personas
+
+| Persona | Perfil | Pain points | Producto objetivo |
+|---|---|---|---|
+| **Laura (30)** | Profesional urbana, teletrabajo, poco tiempo | Gimnasio caro y lejos; horarios incompatibles | Suscripción Premium + consultas mensuales |
+| **Carlos (45)** | Padre de familia, recuperando forma | Vergüenza en gimnasio; falta orientación | Plan "Vuelta en forma" + consulta inicial |
+| **Marta (25)** | Estudiante, presupuesto ajustado | Precio de gimnasio; intermitencia | Suscripción Básico + retos puntuales |
+| **Daniel (38)** | Deportista con objetivo (media maratón) | Entrenador personal caro | Plan Running + bono consultas |
+
+#### 1.1.5 Análisis de competencia (benchmarking)
+
+| Competidor | Modelo | Precio/mes | Fortalezas | Debilidades | Gap que explotamos |
+|---|---|---|---|---|---|
+| **Gympass (ahora Wellhub)** | Suscripción B2B con acceso a gimnasios | 25-75 € | Marca, red presencial | No online puro, no personalizado | Sin consultas 1:1 |
+| **FitOn** | Gratuito con premium 29,99 $/año | 2,50 € | Precio, catálogo amplio | En inglés, sin soporte humano | Idioma + interacción |
+| **Nike Training Club** | Gratuito | 0 € | Marca, producción | Sin personalización | Planes adaptativos |
+| **Entrenar.me** | Planes personalizados a medida | 45-120 € | Personalización alta | Precio alto, sin biblioteca | Precio más accesible + catálogo |
+| **MyFitnessPal** | App nutrición + ejercicio | 9,99 $ | Base de datos alimentos | Poco foco en entrenamiento guiado | Vídeo-guiado real |
+
+**Posicionamiento de FitOnline:** *"la profesionalidad de un entrenador personal a un precio de suscripción digital, en español y adaptado a tu progreso"*.
+
+#### 1.1.6 Propuesta de valor (Value Proposition Canvas resumido)
+
+- **Job-to-be-done del cliente**: "Quiero ponerme en forma sin pagar un gimnasio caro ni comprometer mi horario".
+- **Pains que aliviamos**: horarios rígidos, precio, falta de orientación profesional, vergüenza.
+- **Gains que aportamos**: flexibilidad total, coste reducido, consultas con certificados, progresión visible.
+
+#### 1.1.7 Modelo de negocio (Lean Canvas simplificado)
+
+```
+┌────────────────────────┬────────────────────────┬────────────────────────┐
+│   PROBLEMA             │   SOLUCIÓN             │   PROPUESTA VALOR      │
+│ - Gimnasio caro        │ - Biblioteca vídeos    │ - Pro a precio digital │
+│ - Horarios rígidos     │ - Consultas 1:1        │ - Español + cercano    │
+│ - Sin orientación pro  │ - Planes personaliz.   │ - Pruebas 7 días gratis│
+├────────────────────────┼────────────────────────┼────────────────────────┤
+│   MÉTRICAS CLAVE       │   VENTAJA DIFERENCIAL  │   CANALES              │
+│ - MRR / ARR            │ - Red entrenadores ES  │ - SEO + SEM            │
+│ - Churn mensual        │ - Tema dark custom     │ - Instagram/TikTok     │
+│ - LTV / CAC            │ - Auto-suscripción OC  │ - Afiliados/Influencers│
+├────────────────────────┴────────────────────────┼────────────────────────┤
+│   ESTRUCTURA DE COSTES                          │   FUENTES DE INGRESOS  │
+│ Hosting, streaming, entrenadores, marketing     │ Suscripciones (80%) +  │
+│ (ver sección 4)                                 │ consultas (15%) + merch│
+└─────────────────────────────────────────────────┴────────────────────────┘
+```
+
+#### 1.1.8 Estrategia y operaciones
+
+1. **Fase 0 — Validación (meses 1-2)**: prototipo OpenCart en local, 40 vídeos iniciales, 2 entrenadores colaboradores, lista de espera.
+2. **Fase 1 — Soft launch (meses 3-4)**: VPS productivo, campaña a 300 beta-testers, prueba gratis 7 días, iteración de UX.
+3. **Fase 2 — Lanzamiento (meses 5-8)**: campañas pagadas, influencers, programa de afiliados, objetivo 500 suscriptores.
+4. **Fase 3 — Escala (meses 9-12)**: ampliación catálogo a 120+ vídeos, 8-10 entrenadores, expansión LATAM.
+
+#### 1.1.9 Plan financiero (resumen)
+
+| Concepto | Año 1 | Año 2 | Año 3 |
+|---|---|---|---|
+| Suscriptores activos (media) | 180 | 650 | 1.400 |
+| MRR objetivo (fin de año) | 4.200 € | 11.800 € | 24.500 € |
+| Ingresos anuales | 32.400 € | 112.000 € | 248.000 € |
+| Costes totales | 38.900 € | 78.000 € | 132.000 € |
+| EBITDA | -6.500 € | 34.000 € | 116.000 € |
+
+- **Inversión inicial**: 6.457 € (ver sección 4).
+- **Break-even operativo**: mes 10 (~95 suscriptores activos).
+- **Break-even acumulado**: mes 16.
+- **Retorno sobre inversión (ROI) a 3 años**: 1.890%.
+
+#### 1.1.10 Análisis DAFO
+
+| | Internos | Externos |
+|---|---|---|
+| **Positivos** | **Fortalezas**: tema custom propio, control tecnológico total, equipo técnico solvente, costes bajos de arranque | **Oportunidades**: mercado en crecimiento, hábitos post-pandemia consolidados, auge del creator economy fitness |
+| **Negativos** | **Debilidades**: marca nueva sin reconocimiento, catálogo inicial limitado, sin red comercial | **Amenazas**: competidores con músculo (Apple Fitness+, Nike), saturación de contenido gratuito en YouTube, regulación sanitaria |
+
+#### 1.1.11 Riesgos y mitigación
+
+| Riesgo | Probabilidad | Impacto | Mitigación |
+|---|---|---|---|
+| Churn alto tras prueba gratis | Alta | Alto | Onboarding guiado + recordatorios email |
+| Lesión de un cliente durante entrenamiento | Media | Crítico | PAR-Q obligatorio + disclaimer + seguro RC |
+| Baja retención de entrenadores freelance | Media | Medio | Retribución variable por alumnos activos |
+| Fallo técnico en streaming masivo | Baja | Alto | CDN (Bunny) + fallback a Vimeo OTT |
+| Bajón estacional (verano) | Alta | Medio | Campaña "Operación bikini" + reto 30 días |
+
+#### 1.1.12 Roadmap (hitos)
+
+- **M+3**: 100 suscriptores, 50 vídeos, 3 entrenadores
+- **M+6**: 300 suscriptores, 80 vídeos, app mobile (PWA)
+- **M+12**: 700 suscriptores, 120 vídeos, funcionalidad de directos
+- **M+18**: expansión LATAM (México, Colombia, Chile)
+- **M+24**: ronda de financiación pre-seed (300k €) para equipo in-house
+
+![Plan de negocio — diagrama BMC](tr-5/img/plan_negocio.png)
+
+### 1.2 Alternativas de implementación
+
+| Dimensión | Decisión tomada | Alternativa descartada |
+|---|---|---|
+| **Tecnología** | OpenCart (Docker local → VPS en producción) con extensión de productos digitales / suscripciones | Shopify (comisión por transacción en plan básico) |
+| **Procesos** | Suscripción mensual/anual + compra puntual de consultas | Pago por vídeo individual (menor LTV) |
+| **Laborales** | Entrenadores freelance con contrato mercantil | Contratación directa (riesgo laboral alto) |
+| **Legales** | Sociedad limitada + contratos de cesión de imagen | Autónomo (responsabilidad ilimitada) |
+
+### 1.3 Proveedores de servicios
+
+| Servicio | Proveedor | Motivo |
+|---|---|---|
+| Hosting | SiteGround (plan GrowBig) | LiteSpeed + SSL + backups diarios |
+| Dominio | Namecheap (.es + .com) | Precio competitivo + WhoisGuard |
+| Streaming de vídeo | Vimeo OTT / Bunny Stream | Reproductor sin anuncios + DRM + CDN |
+| Pasarela de pago | Stripe + Redsys | Stripe para suscripciones; Redsys para nacional |
+| Email marketing | Brevo (ex-Sendinblue) | Automatizaciones + plan gratuito inicial |
+| Videoconferencia | Jitsi Meet / Zoom | Consultas 1:1 con entrenadores |
+| Asesoría legal | Gestoría local Almería | LSSICE + RGPD + contratos de cesión de derechos |
+
+### 1.4 Estructura organizativa
+
+```
+                  ┌─────────────────┐
+                  │  Administración │
+                  │   (Antonio)     │
+                  └────────┬────────┘
+                           │
+         ┌─────────────┬───┴────────┬───────────────┐
+         ▼             ▼            ▼               ▼
+ ┌─────────────┐ ┌─────────────┐ ┌──────────────┐ ┌───────────────┐
+ │  Director   │ │     DPO     │ │  Responsable │ │ Entrenadores  │
+ │  e-ventas   │ │  (externo)  │ │   contenido  │ │  (freelance)  │
+ │   (Raúl)    │ │             │ │  (Antonio)   │ │               │
+ └─────────────┘ └─────────────┘ └──────────────┘ └───────────────┘
+```
+
+---
+
+## 2. Desarrollo del proyecto
+
+### 2.1 Estrategia de marketing
+
+#### 2.1.1 Objetivos SMART
+
+| # | Objetivo | Métrica | Horizonte |
+|---|---|---|---|
+| 1 | Alcanzar 500 suscriptores activos | Suscriptores activos mensuales | 8 meses |
+| 2 | Tasa de conversión prueba gratis → pago ≥ 22% | % conversión | 6 meses |
+| 3 | CAC ≤ 18 € por suscriptor | Coste de adquisición | Desde mes 4 |
+| 4 | LTV/CAC ≥ 3 | Ratio financiero | Año 1 |
+| 5 | Posicionar 15 keywords en top 10 Google | Rankings orgánicos | 12 meses |
+| 6 | Lista de email con 8.000 contactos opt-in | Suscriptores newsletter | 12 meses |
+| 7 | Churn mensual ≤ 6% | % bajas / suscriptores | Continuo |
+
+#### 2.1.2 Posicionamiento y mensaje
+
+- **Posicionamiento**: *"FitOnline: la profesionalidad de un entrenador personal a un precio de suscripción digital, en español y con progresión real."*
+- **Tono de voz**: cercano, motivador, sin paternalismo, sin términos agresivos de *"transforma tu cuerpo en 30 días"*.
+- **Claim principal**: **"Entrena donde quieras. Avanza con quien sabe."**
+- **Claim secundario**: *"Pruébalo 7 días gratis. Cancela cuando quieras."*
+
+#### 2.1.3 Marketing Mix (4 P's)
+
+**Producto**
+- Biblioteca de vídeos HD categorizados por objetivo, nivel y duración.
+- Consultas 1:1 por videoconferencia con entrenadores certificados.
+- Planes personalizados en PDF descargable.
+- Retos grupales gamificados (badges, ranking).
+
+**Precio**
+| Plan | Precio | Periodicidad | Público |
+|---|---|---|---|
+| Básico | 14,99 € | Mensual | Usuario principiante, prueba el producto |
+| Premium | 24,99 € | Mensual | Suscriptor comprometido, incluye 1 consulta/mes |
+| Anual | 149 € (12,42 €/mes) | Anual | 40% descuento; reduce churn |
+| Consulta suelta | 25 € (30') / 45 € (60') | Unitario | Cross-sell a suscriptores |
+| Bono 4 consultas | 150 € | Unitario | Clientes premium |
+
+Estrategia de precios: **penetración inicial** (primeros 3 meses con 30% descuento) para construir base → **valor percibido** (sin descuentos salvo anual) a partir del mes 4.
+
+**Plaza (distribución)**
+- Canal principal: web propia con OpenCart.
+- Canales secundarios: App móvil (PWA), YouTube (contenido gratuito de atracción).
+- Distribución geográfica Año 1: España. Año 2: LATAM.
+
+**Promoción**
+- 7 días de prueba gratuita sin tarjeta de crédito inicial (reducción fricción).
+- Cupón de lanzamiento `FITLAUNCH30` con 30% dto. primer mes.
+- Programa de referidos: 1 mes gratis al suscriptor que invita y al invitado.
+- Descuento estudiantes (20%) verificado con correo institucional `.edu`.
+
+#### 2.1.4 Buyer's journey y funnel (AIDA)
+
+```
+ ATENCIÓN  ──▶  INTERÉS  ──▶  DESEO   ──▶  ACCIÓN  ──▶  FIDELIZACIÓN
+ (Top)          (Middle)      (Middle)      (Bottom)     (Retención)
+   │               │             │            │             │
+   ▼               ▼             ▼            ▼             ▼
+ TikTok         Blog SEO     Landing      7 días          Email +
+ Instagram     Guías PDF    Testimonios    gratis        comunidad
+ Google Ads    Webinars     Case studies   Cupón          Retos
+```
+
+#### 2.1.5 Estrategia SEO (marketing orgánico)
+
+**Keyword research (primeras 15 keywords objetivo):**
+
+| Keyword | Volumen/mes (ES) | Dificultad | Prioridad |
+|---|---|---|---|
+| entrenamiento en casa | 14.800 | Alta | ★★★ |
+| rutinas fitness online | 2.400 | Media | ★★★ |
+| preparador físico online | 1.900 | Media | ★★★ |
+| planes de entrenamiento | 3.200 | Alta | ★★ |
+| ejercicios para adelgazar en casa | 8.100 | Alta | ★★ |
+| rutina HIIT principiantes | 1.300 | Baja | ★★★ |
+| hipertrofia en casa | 1.600 | Media | ★★ |
+| entrenador personal online España | 480 | Baja | ★★★ |
+| ejercicios movilidad | 2.900 | Media | ★★ |
+| entrenamiento mujer 40 | 720 | Baja | ★★★ |
+| plan running media maratón | 880 | Baja | ★★★ |
+| estiramientos después entrenar | 3.400 | Media | ★★ |
+| core principiantes rutina | 590 | Baja | ★★★ |
+| alimentación previa entrenamiento | 1.100 | Media | ★★ |
+| gym en casa sin material | 2.000 | Media | ★★ |
+
+**Estrategia de contenidos (12 meses):**
+
+- **Blog**: 2 artículos/semana de tipo *pillar content* + guías largas (2.000+ palabras).
+- **Clusters temáticos**: perder peso / ganar músculo / movilidad / running / nutrición deportiva.
+- **Link building**: guest posting en 5 blogs de salud + presencia en directorios especializados.
+- **SEO técnico**: Core Web Vitals, Schema.org (Product, Course, Review), sitemap dinámico.
+- **SEO local**: Google Business Profile para las consultas presenciales puntuales en Almería.
+
+#### 2.1.6 Estrategia SEM (marketing de pago)
+
+**Google Ads — presupuesto inicial 250 €/mes escalable a 1.500 €/mes:**
+
+| Tipo de campaña | Presupuesto mensual inicial | Objetivo |
+|---|---|---|
+| Search — marca | 30 € | Proteger búsquedas "FitOnline" |
+| Search — keywords transaccionales | 120 € | *"preparador personal online"*, *"suscripción fitness"* |
+| Performance Max | 60 € | Retargeting multiplataforma |
+| YouTube — bumper ads | 40 € | Brand awareness con clips de 6 s |
+
+**Meta Ads (Instagram + Facebook) — presupuesto inicial 180 €/mes:**
+
+- Campañas de **prueba gratis** con audiencias lookalike.
+- Retargeting de visitantes de la web (pixel instalado).
+- Creatividades en vídeo vertical 9:16.
+- Audiencias por intereses: yoga, running, crossfit, nutrición, deportes.
+
+**TikTok Ads — presupuesto exploratorio 100 €/mes:**
+- Spark ads usando contenido orgánico viral de entrenadores colaboradores.
+- Audiencia 18-35, interés deportivo.
+
+#### 2.1.7 Redes sociales (orgánico)
+
+| Red | Frecuencia | Formato principal | KPI primario |
+|---|---|---|---|
+| **Instagram** | 5 post/semana | Reels (70%) + carruseles (30%) | Alcance + saves |
+| **TikTok** | 1 post/día | Vídeos 30-60 s con hook fuerte | Reproducciones + shares |
+| **YouTube** | 1 vídeo largo/semana | Rutina completa 15-30 min | Suscriptores + CTR miniatura |
+| **LinkedIn** | 2 post/semana | Storytelling + salud corporativa | Conexiones B2B |
+| **Pinterest** | 5 pines/semana | Infografías de rutinas | Tráfico a blog |
+
+#### 2.1.8 Marketing de influencers
+
+- **Micro-influencers** (10k-50k seguidores) del nicho fitness ES.
+- 5-8 colaboradores el primer trimestre con **código promocional personalizado** trackeable.
+- Contraprestación: barter (suscripción anual gratis + producto físico) + fee variable 30 €/conversión.
+- **Macro-influencers** (>200k) a partir del mes 8, presupuesto 2.000 €/colaboración.
+
+#### 2.1.9 Email marketing y automatizaciones (Brevo)
+
+Flujos automatizados implementados:
+
+1. **Bienvenida** (3 emails en 7 días): pack descargable + vídeo presentación + oferta de lanzamiento.
+2. **Onboarding post-suscripción** (5 emails): plan recomendado + cómo reservar consulta + hábitos.
+3. **Abandono de carrito** (2 emails): recordatorio 1h + cupón -10% a las 24h.
+4. **Churn prevention**: si no hay actividad en 14 días, email con plan adaptado.
+5. **Win-back**: 30 días tras baja, oferta "vuelve por 9,99 € el primer mes".
+6. **Upsell a anual**: mes 4 de suscripción mensual, propuesta de cambio a anual con 40% dto.
+7. **Cross-sell de consultas**: a suscriptores Básico, oferta bono 2 consultas a 40 €.
+
+#### 2.1.10 Programa de afiliados
+
+- **Comisión**: 20% de la primera cuota + 10% recurrente durante 12 meses.
+- **Perfiles objetivo**: blogs de fitness, nutricionistas, fisioterapeutas, preparadores freelance.
+- **Plataforma**: módulo de afiliados nativo de OpenCart + panel de tracking.
+- **Objetivo Año 1**: 40 afiliados activos generando el 15% de suscripciones.
+
+#### 2.1.11 Presupuesto de marketing (primer año)
+
+| Partida | Mensual | Anual |
+|---|---|---|
+| Google Ads | 250 € | 3.000 € |
+| Meta Ads (IG + FB) | 180 € | 2.160 € |
+| TikTok Ads | 100 € | 1.200 € |
+| Influencers (media) | 150 € | 1.800 € |
+| Herramientas (Brevo, Canva Pro, edición) | 45 € | 540 € |
+| Producción creatividades (freelance) | 120 € | 1.440 € |
+| **Total marketing** | **845 €** | **10.140 €** |
+
+Representa ~31% de los ingresos previstos del Año 1; se reducirá al 20% en Año 2 al consolidarse el tráfico orgánico.
+
+#### 2.1.12 Calendario de lanzamiento (90 días)
+
+| Día | Hito |
+|---|---|
+| D-30 | Lanzamiento de blog con 8 artículos ya publicados (pre-SEO) |
+| D-21 | Landing de captación con formulario "lista de espera" |
+| D-14 | Campaña teaser en Instagram/TikTok con entrenadores colaboradores |
+| D-7 | Envío de email a lista de espera con código de acceso anticipado |
+| **D-0** | **Lanzamiento público: prueba 7 días gratis + cupón `FITLAUNCH30`** |
+| D+7 | Primer directo en Instagram con entrenador estrella |
+| D+14 | Activación de campaña de afiliados |
+| D+30 | Revisión KPIs + iteración creatividades |
+| D+60 | Lanzamiento del reto "30 días de movimiento" |
+| D+90 | Evaluación completa, ajuste de presupuesto, plan Q2 |
+
+#### 2.1.13 KPIs y medición
+
+| Categoría | KPI | Objetivo Año 1 | Herramienta |
+|---|---|---|---|
+| Captación | Visitantes únicos/mes | 25.000 | GA4 |
+| Captación | CAC | ≤ 18 € | GA4 + Meta Ads |
+| Conversión | Tasa registro → prueba | ≥ 35% | GA4 funnel |
+| Conversión | Tasa prueba → pago | ≥ 22% | OpenCart reports |
+| Retención | Churn mensual | ≤ 6% | BD OpenCart |
+| Monetización | ARPU | ≥ 18 € | BD OpenCart |
+| Monetización | LTV | ≥ 75 € | Cálculo interno |
+| Engagement | Vídeos vistos/usuario/mes | ≥ 8 | Vimeo OTT analytics |
+| Soporte | NPS | ≥ 45 | Encuesta trimestral |
+
+![Estrategia de marketing](tr-5/img/estrategia_marketing.png)
+![Funnel de conversión](tr-5/img/funnel_conversion.png)
+![Calendario de lanzamiento](tr-5/img/calendario_lanzamiento.png)
+
+### 2.2 Selección de medios de pago
+
+| Medio | Uso | Comisión |
+|---|---|---|
+| Stripe (suscripciones) | Renovación mensual/anual automática | 1.4% + 0.25 € |
+| Redsys (TPV virtual) | Compras puntuales con tarjeta nacional | 0.9% + 0.15 € |
+| PayPal | Clientes internacionales | 2.9% + 0.35 € |
+| Bizum comercios | Usuarios particulares nacionales | 0.25% |
+
+### 2.3 Entrega del servicio (producto digital)
+
+Al tratarse de un producto digital, no existe logística física. El flujo de entrega es:
+
+- **Suscripciones**: acceso inmediato a la biblioteca de vídeos tras el pago (OpenCart genera el permiso del grupo de cliente).
+- **Consultas 1:1**: enlace a sala de Jitsi/Zoom enviado al correo tras reservar franja horaria.
+- **Planes personalizados**: PDF descargable elaborado por el entrenador asignado en 48-72h.
+- *(Opcional)* Merchandising (camisetas, bandas elásticas) vía dropshipping con Printful.
+
+### 2.4 Consultoría legal
+
+Cumplimiento normativo implementado:
+
+- **LSSICE**: aviso legal, condiciones de contratación, identificación del prestador.
+- **RGPD**: política de privacidad, consentimiento de cookies, registro de tratamientos, figura del DPO externo.
+- **Ley de Consumidores y Usuarios**: derecho de desistimiento 14 días — renunciable expresamente en contenidos digitales tras iniciar la visualización.
+- **Contratos con entrenadores**: cesión de derechos de imagen y de explotación de los vídeos grabados.
+- **Disclaimer sanitario**: advertencia de que los planes no sustituyen consejo médico y formulario PAR-Q previo a la suscripción.
+
+![Páginas legales de la tienda](tr-5/img/paginas_legales.png)
+
+### 2.5 Diseño web y programación (OpenCart)
+
+El prototipo se ha desplegado usando el stack oficial de OpenCart con Docker para mantener entornos reproducibles entre los integrantes del equipo. El repositorio del OpenCart personalizado se encuentra separado del repositorio de la asignatura.
+
+**Arquitectura técnica real:**
+
+```
+┌──────────────────────────────────────────────────────┐
+│  Docker Compose (entorno local)                      │
+│  ┌────────────────────────────────────────────────┐  │
+│  │  apache (Apache 2.4)   ──▶ puerto 80           │  │
+│  │  php    (PHP 8.4-FPM)  ──▶ puerto 9000         │  │
+│  │  mysql  (MariaDB)      ──▶ puerto 3306         │  │
+│  │  adminer (DB GUI)      ──▶ puerto 8080 (opt.)  │  │
+│  │  redis   (caché)       ──▶ puerto 6379 (opt.)  │  │
+│  └────────────────────────────────────────────────┘  │
+│                         ▼                            │
+│  ┌────────────────────────────────────────────────┐  │
+│  │  OpenCart (rama master · PHP 8.x)              │  │
+│  │  ├── Tema: custom "FitOnline" (dark gradient)  │  │
+│  │  ├── Fuentes: Inter (Google Fonts)             │  │
+│  │  ├── Paleta: #0f172a / #38bdf8 / #818cf8       │  │
+│  │  ├── Prefijo tablas: oc_                       │  │
+│  │  ├── Funcionalidades modificadas:              │  │
+│  │  │   ├── Página Home con tabs por categoría    │  │
+│  │  │   ├── Fichas de producto con vídeo embebido │  │
+│  │  │   ├── Área de cliente rediseñada (13 vistas)│  │
+│  │  │   ├── Sistema de descargas digitales        │  │
+│  │  │   ├── Suscripciones auto al confirmar pago  │  │
+│  │  │   │   por transferencia bancaria            │  │
+│  │  │   └── Panel admin con filtros de órdenes    │  │
+│  │  └── Idioma: en-gb (base) con textos propios   │  │
+│  └────────────────────────────────────────────────┘  │
+└──────────────────────────────────────────────────────┘
+```
+
+**Levantar el entorno local:**
+
+```bash
+cd opencart
+docker compose up -d
+# Tienda:     http://localhost/
+# Admin:      http://localhost/admin/  (admin / admin)
+# Adminer:    http://localhost:8080/   (con perfil 'adminer')
+```
+
+**Personalización del tema:**
+
+El tema por defecto de OpenCart se ha reescrito para adoptar la misma identidad visual del resto de la asignatura: fondo oscuro `#0f172a`, acento azul cielo `#38bdf8`, tipografía **Inter** y tarjetas con hover elevado. Los archivos modificados incluyen:
+
+- `catalog/view/template/common/home.html` — hero con gradiente + tabs de categorías
+- `catalog/view/template/common/header.html` y `footer.html` — navegación oscura
+- `catalog/view/template/product/product.html` — ficha con reproductor de vídeo
+- `catalog/view/template/account/*.html` — 13 páginas del área de cliente rediseñadas
+- `catalog/view/template/checkout/*.html` — carrito y checkout oscuros
+
+**Funcionalidades técnicas desarrolladas:**
+
+- **Suscripciones automáticas**: se ha extendido el controlador `catalog/controller/extension/opencart/payment/bank_transfer.php` para que al confirmar el pago se active automáticamente la suscripción del cliente.
+- **Corrección en suscripciones**: fix del `currency_code` en `catalog/controller/account/subscription.php`.
+- **Panel admin mejorado**: `admin/view/template/sale/order.twig` incluye filtros rápidos en la lista de órdenes y un botón "Confirmar" visible solo en órdenes nuevas.
+- **Handler History Add**: se ha implementado un manejador en JavaScript vanilla (`admin/view/template/sale/order_info.twig`) para añadir entradas al historial sin recargar la página.
+
+**Categorías del catálogo creadas en la BD** (IDs `60-64`):
+
+1. **Suscripciones** — Básico, Premium, Anual (productos digitales con acceso por grupo de cliente)
+2. **Planes por objetivo** — Pérdida de peso, Hipertrofia, Movilidad, Running
+3. **Consultas con entrenador** — 30 min, 60 min, Bono 4 sesiones
+4. **Retos guiados** — Reto 30 días, HIIT 21 días
+5. **Merchandising** (opcional) — camisetas técnicas, bandas, esterillas
+
+La home renderiza estas 5 categorías como pestañas con los productos filtrados dinámicamente, construidas en `catalog/controller/common/home.php` con `$fitness_category_ids = [60, 61, 62, 63, 64]`.
+
+![Panel de administración de OpenCart](tr-5/img/opencart_admin.png)
+
+![Página principal de la tienda](tr-5/img/tienda_home.png)
+
+![Catálogo de productos](tr-5/img/tienda_catalogo.png)
+
+![Ficha de producto](tr-5/img/tienda_producto.png)
+
+![Carrito de compra](tr-5/img/tienda_carrito.png)
+
+![Checkout completo](tr-5/img/tienda_checkout.png)
+
+---
+
+## 3. Gestión del canal
+
+### 3.1 Nombramientos iniciales
+
+| Rol | Persona | Responsabilidad |
+|---|---|---|
+| Director e-ventas | Raúl | Estrategia comercial, KPIs, atención cliente |
+| DPO (externo) | Gestoría | Cumplimiento RGPD, auditorías anuales |
+| Responsable de contenido | Antonio | Calendario editorial, calidad de vídeos, onboarding de entrenadores |
+| Administrador web | Antonio | Mantenimiento OpenCart, backups, seguridad |
+
+### 3.2 Ejecución del plan de marketing
+
+- Lanzamiento con **7 días de prueba gratuita** durante el primer trimestre.
+- Campaña de Instagram y TikTok Ads segmentada por edad 25-45 e intereses fitness.
+- Colaboraciones con 5-8 micro-influencers (10k-50k seguidores) del nicho.
+- Funnel de email con automatizaciones en Brevo (bienvenida, recordatorios, upsell anual).
+- **Programa de afiliados** con 20% de comisión para partners.
+
+![Campaña de lanzamiento](tr-5/img/campana_marketing.png)
+
+### 3.3 Gestión técnica del canal
+
+- **Funciones del servicio**: registro, suscripción, reproducción protegida, reserva de consultas, área personal.
+- **Contenedor del servicio**: OpenCart sobre SiteGround (LiteSpeed + CDN Cloudflare).
+- **Streaming de vídeo**: Vimeo OTT / Bunny Stream con tokens firmados.
+- **Alojamiento**: plan GrowBig — 20 GB SSD, 100.000 visitas/mes.
+- **Monitorización**: UptimeRobot (5 min) + Google Analytics 4 + Meta Pixel.
+
+![Panel de monitorización](tr-5/img/monitorizacion.png)
+
+### 3.4 Bucle de operación
+
+| Fase | Indicadores (KPIs) |
+|---|---|
+| Análisis de rendimiento | Visitas, CTR, conversión trial→pago, MRR, churn mensual |
+| Análisis de rentabilidad | CAC vs LTV, ingresos por cohorte, ARPU |
+| Detección de incidencias | Fallos de reproducción, pagos rechazados, consultas no asistidas |
+| Acciones correctivas | A/B testing de landing, retargeting a abandonos, win-back de bajas |
+
+---
+
+## 4. Costes
+
+### 4.1 Costes iniciales (one-time)
+
+| Concepto | Coste estimado |
+|---|---|
+| Desarrollo plataforma (OpenCart + tema + módulos) | 1.500 € |
+| Diseño de logo, paleta y elementos visuales | 400 € |
+| Producción de vídeos del catálogo inicial (~40 rutinas) | 2.000 € |
+| Equipo de grabación básico (cámara + audio + luces) | 900 € |
+| Registro de dominio (.es + .com) | 30 € |
+| Alojamiento anual | 240 € |
+| Constitución SL (notaría + registro) | 500 € |
+| Contratos legales (cesión de imagen, T&C) | 300 € |
+| **Total inicial** | **5.870 €** |
+| **Presupuesto (110%)** | **6.457 €** |
+
+### 4.2 Costes recurrentes (mensuales)
+
+| Concepto | Coste mensual |
+|---|---|
+| Hosting + SSL + backups | 20 € |
+| Google Workspace (2 cuentas) | 12 € |
+| Streaming de vídeo (Vimeo OTT / Bunny) | 55 € |
+| Suscripción módulos OpenCart | 15 € |
+| Marketing (Ads + influencers) | 350 € |
+| Comisiones por transacción (~3%) | variable |
+| Honorarios entrenadores freelance | 500 € |
+| Asesoría fiscal | 90 € |
+| Herramientas SaaS (Brevo, Canva Pro, edición) | 45 € |
+| **Total mensual fijo** | **1.087 €** |
+
+### 4.3 Planificación y amortización
+
+- **Punto de equilibrio**: ~95 suscriptores activos a ticket medio 14,99 € (o combinación con consultas).
+- **Horizonte de amortización**: 10 meses.
+- **Reinversión**: 40% de beneficios el primer año en producción de nuevos vídeos y adquisición.
+
+![Previsión financiera a 12 meses](tr-5/img/prevision_financiera.png)
+
+---
+
+## 5. Demostración de la tienda
+
+### 5.1 Flujo completo de compra
+
+1. Usuario llega a la home → ve vídeo-teaser y planes.
+2. Selecciona suscripción o consulta → se registra / inicia sesión.
+3. Acepta T&C + disclaimer sanitario (PAR-Q).
+4. Checkout con Stripe (tarjeta guardada para renovación automática).
+5. Acceso inmediato al área privada con la biblioteca de vídeos y/o enlace de videoconsulta.
+6. Confirmación por email + añadido al grupo de cliente "Suscriptor Premium".
+
+![Flujo de compra completo](tr-5/img/flujo_compra.png)
+
+### 5.2 Área de cliente
+
+![Área de cliente — historial de pedidos](tr-5/img/area_cliente.png)
+
+### 5.3 Panel de administración
+
+![Panel de pedidos en admin](tr-5/img/admin_pedidos.png)
+
+![Configuración de métodos de pago](tr-5/img/admin_pagos.png)
+
+![Gestión de productos](tr-5/img/admin_productos.png)
+
+---
+
+## 6. Diagrama de tareas
+
+| Tarea | Responsable |
+|---|---|
+| Elección del producto y estudio de mercado del fitness online | Antonio & Raúl |
+| Plan de negocio y análisis de rentabilidad (LTV/CAC) | Raúl |
+| Selección de proveedores de servicios | Antonio |
+| Instalación y configuración de OpenCart (Docker Compose) | Antonio |
+| Diseño del tema oscuro custom y paleta (Inter + #0f172a/#38bdf8) | Raúl |
+| Rediseño de las 13 vistas del área de cliente | Antonio |
+| Rediseño de carrito y checkout con tema oscuro | Raúl |
+| Configuración de módulos de pago (transferencia bancaria + Stripe) | Antonio |
+| Sistema de suscripciones auto al confirmar transferencia bancaria | Antonio |
+| Sistema de descargas digitales vinculadas a productos | Antonio |
+| Personalización del panel admin (filtros órdenes + History Add) | Antonio |
+| Categorías y productos reales en BD (IDs 60-64) | Raúl |
+| Redacción de páginas legales (LSSICE, RGPD, disclaimer sanitario) | Raúl |
+| Creación del catálogo de planes y suscripciones de prueba | Raúl |
+| Estrategia de marketing inicial (SEO + redes + influencers) | Raúl |
+| Pruebas del flujo completo (suscripción + reproducción + consulta) | Antonio & Raúl |
+| Documentación y capturas | Antonio & Raúl |
+
+---
+
+## 7. Prompts usados con IA
+
+> Herramienta utilizada: **Claude (Anthropic)** — claude.ai
+
+| # | Prompt |
+|---|---|
+| 1 | `Dame un roadmap paso a paso para montar una plataforma OpenCart de fitness online con vídeos y consultas de entrenador` |
+| 2 | `Cómo configurar Stripe Subscriptions en OpenCart para suscripciones mensuales y anuales` |
+| 3 | `Qué opciones hay para servir vídeo protegido en OpenCart: Vimeo OTT vs Bunny Stream vs self-hosted` |
+| 4 | `Genera páginas legales (aviso legal, privacidad, cookies) + disclaimer sanitario PAR-Q para una plataforma de fitness online` |
+| 5 | `Cómo estructurar grupos de clientes y permisos en OpenCart para dar acceso a vídeos según la suscripción` |
+| 6 | `Plan de costes iniciales y recurrentes para una plataforma de fitness online en su primer año` |
+| 7 | `Estrategia de captación inicial con 7 días de prueba gratis e influencers del sector fitness` |
+| 8 | `Contratos de cesión de imagen para entrenadores freelance que graban los vídeos` |
+| 9 | `Haz un README/HTML para entregar esta actividad siguiendo el tema 3` |
+
+---
+
+## 8. Referencias
+
+- OpenCart — documentación oficial: https://docs.opencart.com/
+- Ley 34/2002 (LSSICE): https://www.boe.es/eli/es/l/2002/07/11/34/con
+- RGPD (UE 2016/679): https://www.boe.es/doue/2016/119/L00001-00088.pdf
+- Stripe Subscriptions: https://stripe.com/docs/billing/subscriptions/overview
+- Vimeo OTT: https://vimeo.com/ott
+- Bunny Stream: https://bunny.net/stream/
+- Redsys — TPV virtual: https://pagosonline.redsys.es/
+- SiteGround — hosting: https://es.siteground.com/
+- Google Analytics 4: https://analytics.google.com/
+- Cuestionario PAR-Q (actividad física): https://www.csep.ca/CMFiles/publications/parq/parq.pdf
+
+---
+
+## Capturas necesarias
+
+> Las siguientes imágenes deben guardarse en la carpeta `tr-5/img/` del repositorio:
+
+### Consultoría estratégica
+
+| Nombre del fichero | Qué debe mostrar |
+|---|---|
+| `tr-5/img/plan_negocio.png` | Diagrama/tabla del plan de negocio (Business Model Canvas o similar) |
+
+### Desarrollo del proyecto
+
+| Nombre del fichero | Qué debe mostrar |
+|---|---|
+| `tr-5/img/estrategia_marketing.png` | Esquema general de la estrategia de marketing (SEO + SEM + redes + afiliados) |
+| `tr-5/img/funnel_conversion.png` | Diagrama AIDA del funnel (visita → prueba → pago → fidelización) |
+| `tr-5/img/calendario_lanzamiento.png` | Timeline de los 90 días de lanzamiento con los hitos marcados |
+| `tr-5/img/paginas_legales.png` | Capturas del aviso legal / privacidad / cookies visibles en la tienda |
+| `tr-5/img/opencart_admin.png` | Panel principal de administración de OpenCart (dashboard) |
+| `tr-5/img/tienda_home.png` | Home de la tienda con planes destacados y vídeo-teaser |
+| `tr-5/img/tienda_catalogo.png` | Listado de suscripciones / planes por objetivo |
+| `tr-5/img/tienda_producto.png` | Ficha detallada de una suscripción o consulta (descripción, precio, vista previa) |
+| `tr-5/img/tienda_carrito.png` | Carrito con suscripción + consulta añadidas |
+| `tr-5/img/tienda_checkout.png` | Proceso de checkout con Stripe (datos + aceptación de T&C y PAR-Q) |
+
+### Gestión del canal
+
+| Nombre del fichero | Qué debe mostrar |
+|---|---|
+| `tr-5/img/campana_marketing.png` | Ejemplo de campaña de lanzamiento (Instagram/TikTok Ads, banner, o landing con 7 días gratis) |
+| `tr-5/img/monitorizacion.png` | Panel de Google Analytics, Meta Pixel o UptimeRobot con métricas |
+
+### Costes y flujos
+
+| Nombre del fichero | Qué debe mostrar |
+|---|---|
+| `tr-5/img/prevision_financiera.png` | Gráfico/tabla con previsión a 12 meses (MRR, suscriptores, churn) |
+| `tr-5/img/flujo_compra.png` | Flujo completo (registro → suscripción → acceso a vídeos) en secuencia |
+| `tr-5/img/area_cliente.png` | Área personal del cliente con biblioteca de vídeos y consultas reservadas |
+| `tr-5/img/admin_pedidos.png` | Listado de pedidos/suscripciones en el panel de administración |
+| `tr-5/img/admin_pagos.png` | Configuración de métodos de pago activos (Stripe Subscriptions / Redsys) |
+| `tr-5/img/admin_productos.png` | Gestión de productos (suscripciones, consultas, planes) en el admin |
+
+### Específicas de fitness
+
+| Nombre del fichero | Qué debe mostrar |
+|---|---|
+| `tr-5/img/reproductor_video.png` | Reproductor de vídeo embebido dentro de la ficha de producto |
+| `tr-5/img/reserva_consulta.png` | Módulo de reserva de consulta 1:1 con calendario/franjas horarias |
+| `tr-5/img/parq_disclaimer.png` | Formulario PAR-Q y disclaimer sanitario en el checkout |
+
+### Específicas del prototipo técnico
+
+| Nombre del fichero | Qué debe mostrar |
+|---|---|
+| `tr-5/img/docker_running.png` | Terminal con `docker compose ps` mostrando los 4 servicios (apache, php, mysql) en estado Up |
+| `tr-5/img/home_tabs.png` | Home de FitOnline con las pestañas de las 5 categorías funcionando |
+| `tr-5/img/ficha_producto_video.png` | Ficha de producto con el vídeo embebido reproduciéndose |
+| `tr-5/img/area_cliente_oscura.png` | Área de cliente rediseñada con el tema oscuro |
+| `tr-5/img/admin_orden_confirmar.png` | Panel admin con el botón "Confirmar" visible solo en órdenes nuevas |
+| `tr-5/img/admin_filtros.png` | Filtros rápidos implementados en el listado de órdenes del admin |
+| `tr-5/img/suscripcion_activa.png` | Vista de "Mis suscripciones" mostrando una activada tras confirmar transferencia |
+    </template>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.1/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>
+        marked.setOptions({
+            highlight: function(code, lang) {
+                if (lang && hljs.getLanguage(lang)) return hljs.highlight(code, { language: lang }).value;
+                return hljs.highlightAuto(code).value;
+            },
+            breaks: true
+        });
+        document.getElementById('content').innerHTML = marked.parse(document.getElementById('md-source').innerHTML);
+    </script>
+</body>
+
+</html>
